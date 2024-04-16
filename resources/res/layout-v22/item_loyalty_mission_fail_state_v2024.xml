@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginHorizontal="16dp" app:cardBackgroundColor="@color/surfacePrimaryColor" app:cardElevation="0dp" app:shapeAppearance="@style/ShapeAppearance.24">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="246dp">
+        <TextView android:textAppearance="?attr/textAppearanceTextL" android:textColor="@color/textIconPrimaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loyalty_missions_failed_state_title"/>
+        <Button android:id="@+id/profile_retry_missions_loading_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:minWidth="196dp" android:text="@string/loyalty_missions_loading_retry_action" style="@style/SecondaryButton"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

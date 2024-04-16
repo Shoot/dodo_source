@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/bottom_sheet" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp">
+            <ImageView android:id="@+id/thumb_pizzeria" android:background="@color/surfaceSecondaryColor" android:visibility="gone" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="8dp" android:layout_alignParentEnd="true"/>
+            <TextView android:textAppearance="?attr/textAppearanceHeadingH3" android:id="@+id/name_pizzeria_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/thumb_pizzeria"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/street_pizzeria_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/name_pizzeria_text" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/thumb_pizzeria"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconAccentColor" android:id="@+id/status_pizzeria_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/street_pizzeria_text" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/thumb_pizzeria"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/operational_type_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/status_pizzeria_text" android:layout_marginEnd="8dp">
+                <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_baseline_error_outline_24"/>
+                <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/operational_type_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:layout_toStartOf="@+id/thumb_pizzeria"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/delivery_work_time" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp">
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/title_delivery_work_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delivery_and_pickup_time"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconSecondaryColor" android:gravity="end" android:id="@+id/delivery_and_pickup_time_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/title_delivery_work_time"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/restaurant_work_time" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp">
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/title_restaurant_work_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/restaurant_time"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconSecondaryColor" android:gravity="end" android:id="@+id/restaurant_time_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/title_restaurant_work_time"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/equal_work_time" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp">
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/title_equal_work_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/equal_time"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconSecondaryColor" android:gravity="end" android:id="@+id/work_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/title_equal_work_time"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/phone_info" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp">
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/title_phone_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_number"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconAccentColor" android:gravity="end" android:id="@+id/phone_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/title_phone_info"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

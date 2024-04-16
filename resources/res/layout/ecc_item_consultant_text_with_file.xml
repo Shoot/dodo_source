@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/rootLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/consultAvatar" android:layout_width="@dimen/ecc_operator_photo_size" android:layout_height="@dimen/ecc_operator_photo_size" android:layout_alignBottom="@+id/bubble" android:layout_marginStart="@dimen/ecc_margin_half"/>
+    <im.threads.ui.widget.textView.BubbleTimeTextView android:textSize="@dimen/ecc_error_text_size" android:id="@+id/errorText" android:visibility="gone" android:layout_marginTop="@dimen/ecc_margin_material" android:layout_below="@+id/bubble" android:layout_marginStart="@dimen/ecc_consultant_margin_right" style="@style/timestamp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bubble" android:layout_marginBottom="0dp" android:layout_toEndOf="@+id/consultAvatar" style="@style/consultBubble">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/quoteLayout" android:paddingTop="@dimen/ecc_margin_half" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ecc_margin_quarter">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/quoteFileImage" android:visibility="gone" android:layout_width="42dp" android:layout_height="42dp" android:layout_marginTop="@dimen/ecc_margin_half" android:layout_marginBottom="@dimen/ecc_margin_half" android:layout_marginEnd="@dimen/ecc_margin_three_fourth"/>
+            <im.threads.ui.views.CircularProgressButton android:id="@+id/quoteButtonDownload" style="@style/CircularProgressButtonStyle"/>
+            <View android:id="@+id/quoteDelimiter" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/ecc_margin_half" android:layout_marginBottom="@dimen/ecc_margin_half"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <im.threads.ui.widget.textView.QuoteAuthorTextView android:textStyle="bold" android:textColor="@color/ecc_incoming_message_text" android:id="@+id/quoteTo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:paddingStart="0dp" android:paddingEnd="@dimen/ecc_margin_material" android:layout_marginStart="@dimen/ecc_margin_half"/>
+                <im.threads.ui.widget.textView.QuoteMessageTextView android:textColor="@color/ecc_incoming_message_text" android:ellipsize="end" android:id="@+id/quoteFileSpecs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="3" android:layout_marginStart="@dimen/ecc_margin_half" android:layout_marginEnd="@dimen/ecc_margin_half"/>
+                <im.threads.ui.widget.textView.QuoteTimeTextView android:textSize="12sp" android:textColor="@color/ecc_incoming_message_text" android:id="@+id/quoteSendAt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginStart="@dimen/ecc_margin_half"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/imageRoot" android:layout_width="0x7f0700d3" android:layout_height="0x7f0700d3">
+            <FrameLayout android:id="@+id/imageLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:layout_gravity="center" android:id="@+id/loaderImage" android:padding="75dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent" android:adjustViewBounds="true"/>
+            </FrameLayout>
+            <ImageView android:layout_gravity="center" android:id="@+id/errorImage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="200dp" android:minHeight="200dp"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/rightTextRow" android:paddingTop="@dimen/ecc_margin_half" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ecc_margin_quarter">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/fileImage" android:visibility="gone" android:layout_width="42dp" android:layout_height="42dp" android:layout_marginTop="@dimen/ecc_margin_half" android:layout_marginBottom="@dimen/ecc_margin_half"/>
+            <im.threads.ui.views.CircularProgressButton android:id="@+id/buttonDownload" style="@style/CircularProgressButtonStyle"/>
+            <View android:id="@+id/delimiter" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/ecc_margin_half" android:layout_marginStart="@dimen/ecc_margin_three_fourth"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <im.threads.ui.widget.textView.QuoteAuthorTextView android:textStyle="bold" android:textColor="@color/ecc_incoming_message_text" android:id="@+id/to" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:paddingStart="0dp" android:paddingEnd="@dimen/ecc_margin_material" android:layout_marginStart="@dimen/ecc_margin_half"/>
+                <im.threads.ui.widget.textView.QuoteMessageTextView android:textColor="@color/ecc_incoming_message_text" android:ellipsize="end" android:id="@+id/fileSpecs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="3" android:layout_marginStart="@dimen/ecc_margin_half" android:layout_marginEnd="@dimen/ecc_margin_half"/>
+                <im.threads.ui.widget.textView.QuoteTimeTextView android:textSize="12sp" android:textColor="@color/ecc_incoming_message_text" android:id="@+id/sendAt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginStart="@dimen/ecc_margin_half"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/phraseFrame" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <im.threads.ui.widget.textView.BubbleMessageTextView android:textSize="@dimen/ecc_text_medium" android:textColor="@color/ecc_incoming_message_text" android:autoLink="none" android:layout_gravity="center_vertical" android:id="@+id/text" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.25" app:last_line_extra_padding_symbols="@dimen/ecc_last_line_extra_padding_symbols"/>
+            <im.threads.ui.widget.textView.BubbleTimeTextView android:textColor="@color/ecc_operator_message_timestamp" android:layout_gravity="end|bottom" android:id="@+id/timeStamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ecc_margin_material" android:drawablePadding="@dimen/ecc_margin_half"/>
+        </FrameLayout>
+        <include layout="@layout/ecc_open_graph_layout"/>
+    </LinearLayout>
+</RelativeLayout>

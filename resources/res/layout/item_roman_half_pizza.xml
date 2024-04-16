@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/image_container" android:paddingTop="8dp" android:layout_width="0x7f070070" android:layout_height="0x7f070070">
+        <ImageView android:id="@+id/progress" android:layout_width="0x7f07006f" android:layout_height="0x7f07006f" android:layout_margin="12dp"/>
+        <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

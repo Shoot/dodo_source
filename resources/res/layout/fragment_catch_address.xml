@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="56dp" android:layout_alignParentTop="true" app:navigationIcon="@drawable/ic_arrow_start" app:navigationIconTint="@color/textIconPrimaryColor" app:title="@string/delivery_address"/>
+    <View android:background="@drawable/toolbar_dropshadow" android:layout_width="match_parent" android:layout_height="7dp" android:layout_below="@+id/toolbar"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/button_panel" android:layout_below="@+id/toolbar">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" app:srcCompat="@mipmap/ic_catch_address"/>
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:gravity="center" android:id="@+id/message_title" android:paddingLeft="40dp" android:paddingTop="10dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/catch_address_message_title"/>
+        <TextView android:textAppearance="?attr/textAppearanceTextL" android:gravity="center" android:id="@+id/message" android:paddingLeft="40dp" android:paddingTop="10dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/catch_address_message"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/button_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_alignParentBottom="true">
+        <Button android:id="@+id/white_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" style="@style/SecondaryButton"/>
+        <Button android:id="@+id/orange_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:elevation="2dp" style="@style/PrimaryButton"/>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_above="@+id/button_panel" android:layout_centerHorizontal="true"/>
+    <com.dodopizza.android.view.custom.InfoMessage android:id="@+id/info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

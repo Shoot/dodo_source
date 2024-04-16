@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/back_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" app:backgroundTint="@color/surfacePrimaryColor" app:elevation="8dp" app:fabSize="mini" app:srcCompat="@drawable/ic_cross" app:tint="@color/textIconPrimaryColor"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="36dp" android:paddingRight="36dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="36dp">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxWidth="300dp" app:srcCompat="@mipmap/new_year_1"/>
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/new_year_date_title"/>
+        <TextView android:textAppearance="?attr/textAppearanceTextM" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/new_year_schedule_time"/>
+        <Button android:id="@+id/button" android:layout_width="200dp" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/ok_know_button" style="@style/PrimaryButton"/>
+    </LinearLayout>
+</RelativeLayout>

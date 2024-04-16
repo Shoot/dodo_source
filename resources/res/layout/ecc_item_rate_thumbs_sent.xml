@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/bubble" android:background="0x7f080138" android:layout_marginBottom="@dimen/ecc_margin_half" android:paddingStart="0dp" android:paddingEnd="24dp" style="@style/userBubble">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/thumb" android:layout_width="42dp" android:layout_height="42dp" android:layout_centerVertical="true" android:layout_marginStart="@dimen/ecc_margin_half"/>
+        <im.threads.ui.widget.textView.BubbleMessageTextView android:textColor="@color/ecc_outgoing_message_text" android:id="@+id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ecc_margin_half" android:layout_marginStart="@dimen/ecc_margin_half" android:layout_toEndOf="@+id/thumb"/>
+        <im.threads.ui.widget.textView.BubbleTimeTextView android:textColor="@color/ecc_user_message_timestamp" android:id="@+id/timestamp" android:layout_marginTop="@dimen/ecc_margin_quarter" android:drawablePadding="@dimen/ecc_margin_quarter" android:layout_below="@+id/header" android:layout_alignEnd="@+id/header" android:layout_alignParentEnd="true" style="@style/timestamp"/>
+    </RelativeLayout>
+</RelativeLayout>

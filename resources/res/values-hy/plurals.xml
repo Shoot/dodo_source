@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d հասցե</item>
+        <item quantity="other">%1$d հասցե</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d օր</item>
+        <item quantity="other">%1$d օր</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s րոպե</item>
+        <item quantity="other">~%1$s րոպե</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d ապրանք</item>
+        <item quantity="other">%1$d ապրանք</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%2$s արժողությամբ %1$d ապրանք</item>
+        <item quantity="other">%2$s արժողությամբ %1$d ապրանք</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">ապրանք ձեր հաշվին առկա Դոդոդրամներով</item>
+        <item quantity="other">ապրանք ձեր հաշվին առկա Դոդոդրամներով</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Բոնուս %1$s դոդոդրամի դիմաց</item>
+        <item quantity="other">Բոնուս %1$s դոդոդրամի դիմաց</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">%1$s Դոդոդրամի դիմաց</item>
+        <item quantity="other">%1$s Դոդոդրամի դիմաց</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">%1$s Դոդոդրամի և %2$s-ի դիմաց</item>
+        <item quantity="other">%1$s Դոդոդրամի և %2$s-ի դիմաց</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Դուք չունեք բավարար %1$s Դոդոդրամ գնում կատարելու համար</item>
+        <item quantity="other">Դուք չունեք բավարար %1$s Դոդոդրամ գնում կատարելու համար</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d նոր ծանուցում</item>
+        <item quantity="other">%d նոր ծանուցում</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d պատվեր</item>
+        <item quantity="other">%1$d պատվեր</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="one">Դոդոդրամը Դոդոյի ներքին արժույթն է: Դրանք կարող են ծախսվել «Անձնական էջ» բաժնում: Մենք գանձում ենք դոդոդրամները բոլոր պատվերների համար: %1$s օր հետո ստացված դոդոդրամները այրվում են:</item>
+        <item quantity="other">Դոդոդրամը Դոդոյի ներքին արժույթն է: Դրանք կարող են ծախսվել «Անձնական էջ» բաժնում: Մենք գանձում ենք դոդոդրամները բոլոր պատվերների համար: %1$s օր հետո ստացված դոդոդրամները այրվում են:</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d սոուս</item>
+        <item quantity="other">%1$d սոուս</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="one">մինչև %1$d օր</item>
+        <item quantity="other">մինչև %1$d օր</item>
+    </plurals>
+</resources>

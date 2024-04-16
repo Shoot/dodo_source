@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d мекенжай</item>
+        <item quantity="many">%1$d мекенжай</item>
+        <item quantity="other">%1$d мекенжай</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d күн</item>
+        <item quantity="few">%1$d күн</item>
+        <item quantity="many">%1$d күн</item>
+        <item quantity="other">%1$d күн</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s минут</item>
+        <item quantity="few">~%1$s минут</item>
+        <item quantity="many">~%1$s минут</item>
+        <item quantity="other">~%1$s минут</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d тауар</item>
+        <item quantity="few">%1$d тауар</item>
+        <item quantity="many">%1$d тауар</item>
+        <item quantity="other">%1$d тауар</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%2$s сомасына %1$d тауар</item>
+        <item quantity="few">%2$s сомасына %1$d тауар</item>
+        <item quantity="many">%2$s сомасына %1$d тауар</item>
+        <item quantity="other">%2$s сомасына %1$d тауар</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">өнім додокоиндар есебінен себетте</item>
+        <item quantity="few">өнім додокоиндар есебінен себетте</item>
+        <item quantity="many">өнім додокоиндар есебінен себетте</item>
+        <item quantity="other">өнім додокоиндар есебінен себетте</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">%1$s додокоин үшін бонус</item>
+        <item quantity="few">%1$s додокоин үшін бонус</item>
+        <item quantity="many">%1$s додокоин үшін бонус</item>
+        <item quantity="other">%1$s додокоин үшін бонус</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">%1$s коин үшін</item>
+        <item quantity="few">%1$s коин үшін</item>
+        <item quantity="many">%1$s коин үшін</item>
+        <item quantity="other">%1$s коин үшін</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">%1$s коин және %2$s үшін</item>
+        <item quantity="few">%1$s коин және %2$s</item>
+        <item quantity="many">%1$s коин және %2$s үшін</item>
+        <item quantity="other">%1$s коин және %2$s үшін</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">%1$s коин жетпей тұр</item>
+        <item quantity="few">%1$s коин жетпей тұр</item>
+        <item quantity="many">%1$s коин жетпей тұр</item>
+        <item quantity="other">%1$s коин жетпей тұр</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d жаңа хабарландыру</item>
+        <item quantity="other">%d жаңа хабарландыру</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d тапсырыс</item>
+        <item quantity="many">%1$d тапсырыс</item>
+        <item quantity="other">%1$d тапсырыс</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="one">Додокоиндар – бұл Додоның ішкі валютасы. Оларды «Профиль» бөлімінде жұмсауға болады. Біз барлық тапсырыстар үшін додокоиндар есептейміз. Алынған додокоиндар %1$s күннен кейін күйіп кетеді.</item>
+        <item quantity="many">Додокоиндар – бұл Додоның ішкі валютасы. Оларды «Профиль» бөлімінде жұмсауға болады. Біз барлық тапсырыстар үшін додокоиндар есептейміз. Алынған додокоиндар %1$s күннен кейін күйіп кетеді.</item>
+        <item quantity="other">Додокоиндар – бұл Додоның ішкі валютасы. Оларды «Профиль» бөлімінде жұмсауға болады. Біз барлық тапсырыстар үшін додокоиндар есептейміз. Алынған додокоиндар %1$s күннен кейін күйіп кетеді.</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="one">Сіз %1$s дос шақырдыңыз, тағы %2$s қалды</item>
+        <item quantity="many">Сіз %1$s дос шақырдыңыз, тағы %2$s қалды</item>
+        <item quantity="other">Сіз %1$s дос шақырдыңыз, тағы %2$s қалды</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d тұздық</item>
+        <item quantity="few">%1$d тұздық</item>
+        <item quantity="many">%1$d тұздық</item>
+        <item quantity="other">%1$d тұздық</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="one">%1$d күнге дейін</item>
+        <item quantity="many">%1$d күнге дейін</item>
+        <item quantity="other">%1$d күнге дейін</item>
+    </plurals>
+</resources>

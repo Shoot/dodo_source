@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH3" android:textColor="@color/textIconPrimaryAlternateColor" android:layout_gravity="center" android:id="@+id/combo_template_slots_pager_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@+id/combo_template_slot_products_close" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cross" android:layout_marginEnd="21dp" app:tint="@color/textIconPrimaryAlternateColor"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/combo_template_slot_products_recycler" android:visibility="invisible" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:overScrollMode="never"/>
+</LinearLayout>

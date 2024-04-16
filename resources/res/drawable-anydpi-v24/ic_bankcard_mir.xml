@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="24dp" android:width="32dp" android:viewportWidth="32" android:viewportHeight="24">
+    <group>
+        <clip-path android:pathData="M0,7.5h32v9h-32z"/>
+        <path android:fillColor="@drawable/res_0x7f080012_ic_bankcard_mir__0" android:pathData="M28.408,7.5H22.335C22.661,9.493 24.62,11.357 26.775,11.357H31.608C31.673,11.164 31.673,10.907 31.673,10.714C31.673,8.914 30.237,7.5 28.408,7.5Z" android:fillType="evenOdd"/>
+        <path android:fillColor="#4db45f" android:pathData="M22.857,11.679V16.5H25.796V13.929H28.408C29.845,13.929 31.086,12.964 31.478,11.679H22.857Z" android:fillType="evenOdd"/>
+        <path android:fillColor="#4db45f" android:pathData="M12.408,7.5V16.5H15.02C15.02,16.5 15.674,16.5 16,15.857C17.763,12.386 18.286,11.357 18.286,11.357H18.612V16.5H21.551V7.5H18.939C18.939,7.5 18.286,7.564 17.959,8.143C16.457,11.1 15.674,12.643 15.674,12.643H15.347V7.5H12.408Z" android:fillType="evenOdd"/>
+        <path android:fillColor="#4db45f" android:pathData="M0,16.5V7.5H2.939C2.939,7.5 3.788,7.5 4.245,8.786C5.42,12.193 5.551,12.643 5.551,12.643C5.551,12.643 5.812,11.807 6.857,8.786C7.314,7.5 8.163,7.5 8.163,7.5H11.102V16.5H8.163V11.679H7.837L6.204,16.5H4.898L3.265,11.679H2.939V16.5H0Z" android:fillType="evenOdd"/>
+    </group>
+</vector>

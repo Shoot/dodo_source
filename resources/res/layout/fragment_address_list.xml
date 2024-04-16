@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/dialog_bottom_white_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:navigationIcon="@drawable/ic_arrow_start" app:navigationIconTint="@color/textIconPrimaryColor" app:subtitleTextColor="@color/textIconSecondaryColor" app:title="@string/delivery_address"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/address_list" android:paddingBottom="12dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

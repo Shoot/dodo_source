@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/design_system_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/ic_arrow_start" app:navigationIconTint="@color/textIconPrimaryColor" app:title="Дизайн-система"/>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="?attr/textAppearanceTextL" android:id="@+id/design_system_typography_item" android:background="?attr/selectableItemBackground" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Типографика"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextL" android:id="@+id/design_system_buttons_item" android:background="?attr/selectableItemBackground" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Кнопки"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

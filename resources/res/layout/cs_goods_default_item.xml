@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="158dp" android:layout_height="224dp">
+    <com.inappstory.sdk.imageloader.RoundedCornerLayout android:id="@+id/item_cv" android:layout_width="158dp" android:layout_height="158dp">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/image" android:layout_width="158dp" android:layout_height="158dp" android:scaleType="centerCrop"/>
+    </com.inappstory.sdk.imageloader.RoundedCornerLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="10sp" android:textColor="@color/black" android:ellipsize="marquee" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:singleLine="true"/>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="marquee" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="marquee" android:id="@+id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textStyle="bold" android:textColor="#40000000" android:ellipsize="marquee" android:id="@+id/oldPrice" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</LinearLayout>

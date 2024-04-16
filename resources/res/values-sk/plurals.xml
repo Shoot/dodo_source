@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d day</item>
+        <item quantity="few">%1$d day</item>
+        <item quantity="many">%1$d day</item>
+        <item quantity="other">%1$d day</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">%1$s minúta</item>
+        <item quantity="few">~%1$s minút</item>
+        <item quantity="many">~%1$s minút</item>
+        <item quantity="other">~%1$s minút</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d položka</item>
+        <item quantity="few">%1$d položiek</item>
+        <item quantity="many">%1$d položiek</item>
+        <item quantity="other">%1$d položiek</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d položku za cenu %2$s</item>
+        <item quantity="few">%1$d položiek za cenu %2$s</item>
+        <item quantity="many">%1$d položiek za cenu %2$s</item>
+        <item quantity="other">%1$d položiek za cenu %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">produkt za mince v košíku</item>
+        <item quantity="few">produktov za mince v košíku</item>
+        <item quantity="many">produktov za mince v košíku</item>
+        <item quantity="other">produkty za mince v košíku</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Bonus for %1$s dodocoin</item>
+        <item quantity="few">Bonus for %1$s dodocoins</item>
+        <item quantity="many">Bonus for %1$s dodocoins</item>
+        <item quantity="other">Bonus for %1$s dodocoins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">Za %1$s korunu</item>
+        <item quantity="few">Za %1$s korún</item>
+        <item quantity="many">Za %1$s korún</item>
+        <item quantity="other">Za %1$s korún</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">Za %1$s mincu a %2$s</item>
+        <item quantity="few">Za %1$s mincí a %2$s</item>
+        <item quantity="many">Za %1$s mincí a %2$s</item>
+        <item quantity="other">Za %1$s mincí a %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Nedostatok %1$s mince na nákup</item>
+        <item quantity="few">Nedostatok %1$s mincí na nákup</item>
+        <item quantity="many">Nedostatok %1$s mincí na nákup</item>
+        <item quantity="other">Nedostatok %1$s mincí na nákupy</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+        <item quantity="other">%d nových upozornení</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d omáčka</item>
+        <item quantity="few">%1$d omáčok</item>
+        <item quantity="many">%1$d omáčok</item>
+        <item quantity="other">%1$d omáčok</item>
+    </plurals>
+</resources>

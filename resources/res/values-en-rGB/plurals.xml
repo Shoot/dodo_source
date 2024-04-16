@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d address</item>
+        <item quantity="other">%1$d addresses</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d day</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s minute</item>
+        <item quantity="other">~%1$s minutes</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="zero" />
+        <item quantity="one">%1$d of item at the price of %2$s</item>
+        <item quantity="other">%1$d of items at the price of %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">product for dodocoins in your basket</item>
+        <item quantity="other">products for dodocoins in your basket</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Bonus for %1$s dodocoin</item>
+        <item quantity="other">Bonus for %1$s dodocoins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">For %1$s coin</item>
+        <item quantity="other">For %1$s coins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">For %1$s coin and %2$s</item>
+        <item quantity="other">For %1$s coins and %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">You are %1$s coin short for a purchase</item>
+        <item quantity="other">You are %1$s coins short for a purchase</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d order</item>
+        <item quantity="other">%1$d orders</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero">Dodo-coins are the internal currency of Dodo. They can be spent in the Profile section. We credit you with coins for all orders. In %1$s day, your coins burn out.</item>
+        <item quantity="one">Dodo-coins are the internal currency of Dodo. They can be spent in the Profile section. We credit you with coins for all orders. In %1$s day, your coins burn out.</item>
+        <item quantity="other">Dodo-coins are the internal currency of Dodo. They can be spent in the Profile section. We credit you with coins for all orders. In %1$s days, your coins burn out.</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d dip</item>
+        <item quantity="other">%1$d dips</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero">%1$d more days</item>
+        <item quantity="one">%1$d more day</item>
+        <item quantity="other">%1$d more days</item>
+    </plurals>
+</resources>

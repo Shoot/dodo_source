@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/draggable_frame" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/gameContainer" android:background="@android:color/black" android:clickable="true" android:layout_width="@dimen/cs_tablet_width" android:layout_height="@dimen/cs_tablet_height" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@+id/webViewContainer" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <com.inappstory.sdk.stories.ui.views.IASWebView android:id="@+id/gameWebview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <RelativeLayout android:id="@+id/loaderContainer" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="2dp">
+                <ImageView android:id="@+id/loader" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+                <ImageView android:id="@+id/gameRefresh" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:src="0x7f080301" android:layout_centerInParent="true" android:alpha="0" android:elevation="2dp"/>
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/close_button" android:background="@null" android:visibility="gone" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true" android:elevation="10dp" app:srcCompat="0x7f080319"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

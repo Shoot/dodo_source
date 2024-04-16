@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/camera_section" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/textAppearanceTextM" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/camera_in_kitchen"/>
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="176dp" app:cardCornerRadius="8dp" app:cardElevation="0dp" app:strokeColor="@color/strokeSecondaryColor" app:strokeWidth="1dp">
+        <WebView android:id="@+id/web_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.google.android.material.card.MaterialCardView>
+    <Button android:textAppearance="?attr/textAppearanceTextM" android:layout_gravity="start" android:id="@+id/why_naked_hands" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/why_dodo_make_pizza_without_gloves" style="@style/LinkButton"/>
+</LinearLayout>

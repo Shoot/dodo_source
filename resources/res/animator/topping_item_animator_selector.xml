@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <set android:ordering="together">
+            <objectAnimator android:duration="200" android:valueTo="0dp" android:valueType="floatType" android:propertyName="cardElevation"/>
+            <objectAnimator android:duration="200" android:valueTo="1.4dp" android:valueType="intType" android:propertyName="strokeWidth"/>
+            <objectAnimator android:duration="200" android:valueTo="@color/strokePrimaryColor" android:valueType="colorType" android:propertyName="strokeColor"/>
+            <objectAnimator android:duration="@android:integer/config_mediumAnimTime" android:valueTo="1" android:propertyName="scaleX"/>
+            <objectAnimator android:duration="@android:integer/config_mediumAnimTime" android:valueTo="1" android:propertyName="scaleY"/>
+        </set>
+    </item>
+    <item android:state_checked="true">
+        <set android:ordering="together">
+            <objectAnimator android:duration="200" android:valueTo="0dp" android:valueType="floatType" android:propertyName="cardElevation"/>
+            <objectAnimator android:duration="200" android:valueTo="2dp" android:valueType="intType" android:propertyName="strokeWidth"/>
+            <objectAnimator android:duration="200" android:valueTo="@color/strokeDodoColor" android:valueType="colorType" android:propertyName="strokeColor"/>
+            <objectAnimator android:duration="@android:integer/config_mediumAnimTime" android:valueTo="0.98" android:propertyName="scaleX"/>
+            <objectAnimator android:duration="@android:integer/config_mediumAnimTime" android:valueTo="0.98" android:propertyName="scaleY"/>
+        </set>
+    </item>
+    <item>
+        <set android:ordering="together">
+            <objectAnimator android:duration="200" android:valueTo="4dp" android:valueType="floatType" android:propertyName="cardElevation"/>
+            <objectAnimator android:duration="200" android:valueTo="0dp" android:valueType="intType" android:propertyName="strokeWidth"/>
+            <objectAnimator android:duration="200" android:valueTo="@color/strokeDodoColor" android:valueType="colorType" android:propertyName="strokeColor"/>
+            <objectAnimator android:duration="@android:integer/config_mediumAnimTime" android:valueTo="1" android:propertyName="scaleX"/>
+            <objectAnimator android:duration="@android:integer/config_mediumAnimTime" android:valueTo="1" android:propertyName="scaleY"/>
+        </set>
+    </item>
+</selector>

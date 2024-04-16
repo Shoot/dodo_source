@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user"/>
+            <certificates src="system"/>
+        </trust-anchors>
+    </debug-overrides>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="@raw/sber_cert"/>
+        </trust-anchors>
+    </base-config>
+    <domain-config>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-qa.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-ka.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-pz.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-rgsgs.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-oasis.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-queen.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-ns.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-mlc.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-crm.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-ctrl.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi-gateway.dev-pur.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi.ld.dodois.dev
+        </domain>
+        <domain includeSubdomains="true">https://mapi.dodopizza.ru
+        </domain>
+        <trust-anchors>
+            <certificates src="user"/>
+            <certificates src="system"/>
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

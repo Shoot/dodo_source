@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/combo_slot_cardview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" style="@style/CardView.12">
+    <RelativeLayout android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/combo_slot_image" android:layout_width="136dp" android:layout_height="136dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/combo_slot_image">
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconPrimaryColor" android:gravity="center_vertical" android:id="@+id/combo_slot_title" android:layout_width="match_parent" android:layout_height="wrap_content" app:drawableTint="@color/textIconTertiaryColor"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconSecondaryColor" android:id="@+id/combo_slot_size_badge" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/combo_slot_extra_price" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/change_combo_slot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/btn_change_combo_title" android:textAllCaps="false" style="@style/SecondaryButton.Small"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconDodoColor" android:id="@+id/combo_slot_not_available_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/not_available_now"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

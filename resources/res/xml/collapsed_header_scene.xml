@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition app:constraintSetEnd="@+id/collapsed" app:constraintSetStart="@+id/expanded">
+        <OnSwipe app:dragDirection="dragUp" app:touchAnchorId="@+id/loyalty_products_list" app:touchAnchorSide="top"/>
+    </Transition>
+    <ConstraintSet android:id="@+id/expanded">
+        <Constraint android:id="@+id/loyalty_products_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:transformPivotX="0sp" android:scaleX="1" android:scaleY="1" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/loyalty_points_count_text_view"/>
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/collapsed">
+        <Constraint android:id="@+id/loyalty_products_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:transformPivotX="0sp" android:scaleX="0.45" android:scaleY="0.45" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </ConstraintSet>
+</MotionScene>

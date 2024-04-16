@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/combo_template_slot_root_card" android:layout_width="@dimen/combo_template_product_card_min_width" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" app:cardBackgroundColor="@color/backgroundPrimaryColor" app:contentPadding="24dp" style="@style/CardView.16">
+    <LinearLayout android:orientation="vertical" android:id="@+id/pizza_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:fadingEdgeLength="36dp" android:layout_width="match_parent" android:layout_height="0dp" android:minHeight="@dimen/combo_template_scrollview_min_height" android:layout_weight="9" android:overScrollMode="never" android:requiresFadingEdge="vertical">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/combo_template_pizza_image" android:layout_width="@dimen/combo_template_product_image_size" android:layout_height="@dimen/combo_template_product_image_size" android:paddingStart="8dp"/>
+                <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:gravity="center_horizontal" android:id="@+id/combo_template_pizza_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+                <TextView android:textAppearance="?attr/textAppearanceTextS" android:gravity="center_horizontal" android:id="@+id/combo_template_pizza_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+                <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconSecondaryColor" android:gravity="center_horizontal" android:id="@+id/combo_template_pizza_size" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <com.dodopizza.order.feature.product.card.presentation.pizza.view.PizzaVariationControlViewLite android:id="@+id/combo_template_pizza_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="16dp" android:layout_weight="1">
+            <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:textColor="@color/textIconAccentColor" android:id="@+id/combo_template_extra_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/combo_template_select_pizza_button" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <Button android:id="@+id/combo_template_select_pizza_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/select" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/combo_template_extra_price" app:layout_constraintTop_toTopOf="0" style="@style/PrimaryButton"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.dodopizza.order.feature.product.card.presentation.view.ExpandableFoodValueInfoIconView android:id="@+id/combo_template_pizza_foodvalue_info" android:layout_width="28dp" android:layout_height="28dp" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" app:tint="@color/textIconSecondaryColor"/>
+    </RelativeLayout>
+    <ru.dodopizza.app.presentation.product.card.combo.customize.ComboCustomizeBuilderLayout android:id="@+id/combo_customize_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.cardview.widget.CardView>

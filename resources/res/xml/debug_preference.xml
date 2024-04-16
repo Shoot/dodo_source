@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Окружение" android:key="@string/pref_debug_environments_group">
+        <ListPreference android:title="Выберите окружение" android:key="@string/pref_debug_environments_list"/>
+        <EditTextPreference android:title="Добавить новое окружение" android:key="@string/pref_debug_add_environment"/>
+        <MultiSelectListPreference android:title="Удалить окружения" android:key="@string/pref_debug_remove_environment" android:summary="Выберите окружения, которые хотите удалить"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Остальное" android:key="@string/pref_debug_stuff_group">
+        <Preference android:title="Список локальных рубильников" android:key="@string/pref_debug_toggles"/>
+        <Preference android:title="Скопировать пуш-токен" android:key="@string/pref_debug_copy_push_token" android:summary="Нужен для отправки пушей на данное устройство"/>
+        <Preference android:title="Скопировать Firebase Installation Id" android:key="@string/pref_debug_copy_firebase_installation_token" android:summary="Нужен для добавления тестового устройства в Firebase A/B Testing"/>
+        <SwitchPreference android:title="Режим Закрытая пиццерия" android:key="@string/pref_debug_activate_close_mode" android:defaultValue="false" android:summaryOn="Пиццерия закрыта, возможен только отложенный заказ" android:summaryOff="Пиццерия открыта"/>
+        <Preference android:title="Перейти к системным настройкам приложения Dodo Pizza" android:key="@string/pref_debug_go_to_system_app_info" android:summary="Пригодится для быстрого перехода к очистке кэша и всех данных"/>
+        <Preference android:title="Дизайн-система" android:key="@string/pref_debug_design_system" android:summary="Инструменты, которые помогут тестировать дизайн-систему"/>
+        <Preference android:title="FlipperDiagnostic" android:key="@string/pref_debug_flipper_diagnostic" android:summary="Диагностика соединения с Flipper"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp">
+    <FrameLayout android:background="0x7f0800b1" android:padding="14dp" android:layout_width="@dimen/ecc_default_chat_row_height" android:layout_height="@dimen/ecc_default_chat_row_height" android:layout_marginLeft="@dimen/ecc_margin_material">
+        <ImageView android:id="@+id/schedule_icon" android:layout_width="match_parent" android:layout_height="match_parent" app:srcCompat="@drawable/ecc_schedule_icon"/>
+    </FrameLayout>
+    <im.threads.ui.widget.textView.ScheduleAlertTextView android:textSize="18sp" android:textColor="@color/ecc_schedule_text" android:id="@+id/schedule_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ecc_margin_half" android:layout_marginRight="@dimen/ecc_margin_material"/>
+</LinearLayout>

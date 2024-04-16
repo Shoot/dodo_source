@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/personal_price_icon" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginEnd="4dp" app:srcCompat="@drawable/ic_discount_16dp" app:tint="@color/personal_price_badge_in_cart_color_selector"/>
+    <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/personal_price_badge_in_cart_color_selector" android:id="@+id/personal_price_time_remain" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</merge>

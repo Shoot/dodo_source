@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/showCaseMessageViewLayout" android:padding="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="420dp">
+    <ImageView android:id="@+id/imageViewShowCase" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="8dp" android:layout_centerVertical="true" android:layout_marginEnd="8dp" android:layout_alignParentStart="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/layoutTexts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@+id/imageViewShowCaseClose" android:layout_toEndOf="@+id/imageViewShowCase">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/staticWhiteColor" android:id="@+id/textViewShowCaseTitle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="14sp" android:textColor="@color/staticWhiteColor" android:id="@+id/textViewShowCaseText" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/imageViewShowCaseClose" android:padding="8dp" android:visibility="gone" android:layout_width="36dp" android:layout_height="36dp" android:scaleType="centerCrop" android:tint="@color/staticWhiteColor" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:srcCompat="0x7f08018f"/>
+</RelativeLayout>

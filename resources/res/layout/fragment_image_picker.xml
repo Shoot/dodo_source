@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/dialog_bottom_white_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?attr/textAppearanceTextL" android:id="@+id/capture_image" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/image_picker_dialog_capture_image_button" android:drawablePadding="16dp" app:drawableStartCompat="@drawable/ic_photo" app:drawableTint="@color/textIconDodoColor"/>
+    <TextView android:textAppearance="?attr/textAppearanceTextL" android:id="@+id/pick_image" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/image_picker_dialog_pick_image_button" android:drawablePadding="16dp" app:drawableStartCompat="@drawable/ic_cards" app:drawableTint="@color/textIconDodoColor"/>
+</LinearLayout>

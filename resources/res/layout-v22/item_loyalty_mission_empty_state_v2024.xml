@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginHorizontal="16dp" app:cardBackgroundColor="@color/surfacePrimaryColor" app:cardElevation="0dp" app:shapeAppearance="@style/ShapeAppearance.24">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="12dp" android:layout_marginRight="24dp" android:adjustViewBounds="true" android:layout_marginHorizontal="24dp" app:srcCompat="@drawable/empty_missions"/>
+        <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconSecondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="16dp" android:layout_marginRight="12dp" android:layout_marginBottom="12dp" android:text="@string/loyalty_missions_empty_state_title" android:layout_marginHorizontal="12dp"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

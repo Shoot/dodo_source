@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/backgroundPrimaryColor" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/shopping_product_combo_image" android:layout_width="72dp" android:layout_height="72dp" android:layout_marginTop="16dp" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_product_placeholder"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_toEndOf="@+id/shopping_product_combo_image" android:layout_alignParentEnd="true">
+            <TextView android:id="@+id/shopping_product_combo_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" style="@style/ShoppingCartTitle"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/combo_products_info_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconWarningColor" android:id="@+id/shopping_product_combo_stop" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:layout_marginVertical="12dp">
+        <com.google.android.flexbox.FlexboxLayout android:id="@+id/shopping_product_combo_price_sector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="12dp" android:layout_toStartOf="@+id/left_action_button" android:layout_alignParentStart="true" app:flexWrap="wrap">
+            <TextView android:textAppearance="?attr/textAppearanceHeadingH3" android:ellipsize="middle" android:id="@+id/shopping_product_combo_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="8dp"/>
+            <TextView android:ellipsize="middle" android:id="@+id/shopping_product_combo_discount_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:layout_alignSelf="center" style="@style/ShoppingCartDiscountPrice"/>
+        </com.google.android.flexbox.FlexboxLayout>
+        <Button android:id="@+id/left_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_change_combo_title" android:layout_centerVertical="true" android:textAllCaps="false" android:layout_marginEnd="12dp" android:layout_toStartOf="@+id/shopping_cart_counter_button_switcher" style="@style/LinkButton"/>
+        <ViewSwitcher android:id="@+id/shopping_cart_counter_button_switcher" android:background="@drawable/shopping_cart_product_counter_background" android:layout_width="96dp" android:layout_height="32dp" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:id="@+id/shopping_cart_minus_counter_button" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/cart_item_minus_counter" android:layout_weight="1" style="@style/ShoppingCartCounter"/>
+                <TextView android:textColor="@color/textIconSecondaryColor" android:ellipsize="end" android:gravity="center" android:id="@+id/shopping_cart_counter_label" android:layout_width="0dp" android:layout_height="match_parent" android:maxLines="1" android:layout_weight="1" style="@style/ShoppingCartCounter"/>
+                <Button android:id="@+id/shopping_cart_plus_counter_button" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/cart_item_plus_counter" android:layout_weight="1" style="@style/ShoppingCartCounter"/>
+            </LinearLayout>
+            <Button android:id="@+id/right_action_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/remove" android:textAllCaps="false" style="@style/ShoppingCartCounter"/>
+        </ViewSwitcher>
+    </RelativeLayout>
+</LinearLayout>

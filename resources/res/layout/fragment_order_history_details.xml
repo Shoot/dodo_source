@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/ic_arrow_start" app:navigationIconTint="@color/textIconPrimaryColor" app:title="@string/order_history_label"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" app:layout_constraintBottom_toTopOf="@+id/bottom_container" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <LinearLayout android:orientation="vertical" android:paddingTop="26dp" android:paddingBottom="26dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/delivery_fee_section" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="18dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+                        <View android:background="@color/strokeSecondaryColor" android:layout_width="match_parent" android:layout_height="1dp"/>
+                        <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconSecondaryColor" android:id="@+id/delivery_fee_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="@string/delivery_fee_title"/>
+                        <TextView android:textAppearance="?attr/textAppearanceTextM" android:layout_gravity="start|center_vertical" android:id="@+id/delivery_fee" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <View android:background="@color/strokeSecondaryColor" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+                        <TextView android:textAppearance="?attr/textAppearanceTextL" android:layout_gravity="start|center_vertical" android:id="@+id/order_price" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <FrameLayout android:layout_gravity="end" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="?attr/textAppearanceTextL" android:textColor="@color/textIconAccentColor" android:layout_gravity="center" android:id="@+id/check" android:layout_width="wrap_content" android:layout_height="22dp" android:text="@string/order_history_details_receipt"/>
+                            <ProgressBar android:layout_gravity="center" android:id="@+id/checkLoader" android:visibility="gone" android:layout_width="22dp" android:layout_height="22dp"/>
+                        </FrameLayout>
+                    </FrameLayout>
+                    <View android:background="@color/strokeSecondaryColor" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="24dp" android:layout_marginTop="14dp" android:layout_marginRight="24dp"/>
+                    <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconSecondaryColor" android:id="@+id/delivery_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:layout_marginStart="24dp"/>
+                    <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                    <View android:background="@color/strokeSecondaryColor" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="24dp" android:layout_marginTop="8dp" android:layout_marginRight="24dp"/>
+                    <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconSecondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/order_time_label" android:layout_marginStart="24dp"/>
+                    <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/order_time_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp"/>
+                    <View android:background="@color/strokeSecondaryColor" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="24dp" android:layout_marginTop="8dp" android:layout_marginRight="24dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <com.dodopizza.android.view.custom.InfoMessage android:id="@+id/info" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/bottom_container" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+        <RelativeLayout android:id="@+id/bottom_container" android:background="@color/surfacePrimaryColor" android:layout_width="0dp" android:layout_height="72dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+            <Button android:gravity="center" android:id="@+id/repeat_order_button" android:paddingLeft="18dp" android:paddingRight="18dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:text="@string/repeat_order_button_label" android:layout_centerInParent="true" style="@style/PrimaryButton"/>
+            <ProgressBar android:id="@+id/loader" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <View android:id="@+id/view_shadow" android:background="@drawable/footer_dropshadow" android:layout_width="0dp" android:layout_height="7dp" app:layout_constraintBottom_toTopOf="@+id/bottom_container" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

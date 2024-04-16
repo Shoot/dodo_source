@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/backgroundSecondaryColor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/select_country_toolbar" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:contentInsetStart="0dp" app:contentInsetStartWithNavigation="0dp" app:navigationIcon="@drawable/ic_cross" app:navigationIconTint="@color/textIconPrimaryColor">
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:gravity="center" android:id="@+id/countries" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/countries"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+    <View android:id="@+id/separator" android:background="@color/strokeSecondaryColor" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/country_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

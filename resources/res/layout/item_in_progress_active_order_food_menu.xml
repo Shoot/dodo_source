@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/activeOrderProcessContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@+id/activeOrderProcessTitle" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ActiveOrderTitle"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@+id/activeOrderProcessStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ActiveOrderStatus"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/textIconDodoColor" android:layout_gravity="end|center_vertical" android:id="@+id/activeOrderProcessStatusTimeText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ActiveOrderStatus"/>
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:id="@+id/activeOrderProcessSorryLate" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" style="@style/ActiveOrderSubtitle"/>
+</LinearLayout>

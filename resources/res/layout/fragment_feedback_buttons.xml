@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/textIconPrimaryColor" android:id="@+id/rating_title" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/feedbackButtonsTitleStyle"/>
+    <com.dodopizza.controlling.feature.starsfeedback.presentation.StarsFeedbackView android:gravity="center" android:id="@+id/order_stars_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" style="?attr/feedbackButtonsStarsRatingStyle"/>
+    <com.dodopizza.controlling.feature.binaryfeedback.presentation.BinaryFeedbackView android:id="@+id/order_binary_feedback" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" app:buttonsSpacingWidth="12dp"/>
+    <TextView android:textColor="@color/textIconPrimaryColor" android:id="@+id/rating_action_desc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/rate_order_text" style="?attr/feedbackButtonsDescriptionStyle"/>
+</LinearLayout>

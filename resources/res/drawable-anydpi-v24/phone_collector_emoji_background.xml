@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="57dp" android:width="75dp" android:viewportWidth="75" android:viewportHeight="57">
+    <path android:fillColor="@drawable/res_0x7f080032_phone_collector_emoji_background__0" android:pathData="M12.3,0.118L62.3,0.118A12,12 0,0 1,74.3 12.118L74.3,44.118A12,12 0,0 1,62.3 56.118L12.3,56.118A12,12 0,0 1,0.3 44.118L0.3,12.118A12,12 0,0 1,12.3 0.118z"/>
+</vector>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d address</item>
+        <item quantity="other">%1$d addresses</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_dodocoins_subtitle">
+        <item quantity="one">in %1$s day</item>
+        <item quantity="other">in %1$s days</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_flash_dodocoins_description_v3">
+        <item quantity="one">Usually, they’re valid for no more than %1$s day. You can find the exact duration in the terms of the offer</item>
+        <item quantity="other">Usually, they’re valid for no more than %1$s days. You can find the exact duration in the terms of the offer</item>
+    </plurals>
+    <plurals name="coins_expirations_faq_description">
+        <item quantity="one">Not all at once, but gradually, %1$s day after accrual. We will write in advance so that you have time to spend them</item>
+        <item quantity="other">Not all at once, but gradually, %1$s days after accrual. We will write in advance so that you have time to spend them</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="ecc_files">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+    <plurals name="ecc_images">
+        <item quantity="one">%d image</item>
+        <item quantity="other">%d images</item>
+    </plurals>
+    <plurals name="ecc_new_messages">
+        <item quantity="one">%d new message</item>
+        <item quantity="other">%d new messages</item>
+    </plurals>
+    <plurals name="ecc_unread_messages">
+        <item quantity="one">%d unread message</item>
+        <item quantity="other">%d unread messages</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s minute</item>
+        <item quantity="other">~%1$s minutes</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d of item at the price of %2$s</item>
+        <item quantity="other">%1$d of items at the price of %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">product for dodocoins in the cart</item>
+        <item quantity="other">products for dodocoins in the cart</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Bonus for %1$s dodocoin</item>
+        <item quantity="other">Bonus for %1$s dodocoins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">For %1$s coin</item>
+        <item quantity="other">For %1$s coins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">For %1$s coin and %2$s</item>
+        <item quantity="other">For %1$s coins and %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Not enough %1$s coin for purchase</item>
+        <item quantity="other">Not enough %1$s coins for purchase</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d order</item>
+        <item quantity="other">%1$d orders</item>
+    </plurals>
+    <plurals name="profile_settings_account_deletion_status_in_days_title">
+        <item quantity="one">The profile will be deleted in %1$s day</item>
+        <item quantity="other">The profile will be deleted in %1$s days</item>
+    </plurals>
+    <plurals name="profile_settings_account_deletion_status_title">
+        <item quantity="one">The profile will be deleted within %1$s day after your request</item>
+        <item quantity="other">The profile will be deleted within %1$s days after your request</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="one">Dodocoins are the internal currency of the Dodo. They can be spent in the Profile section. We charge dodocoins for all orders. After %1$s day, the received dodocoins burn out.</item>
+        <item quantity="other">Dodocoins are the internal currency of the Dodo. They can be spent in the Profile section. We charge dodocoins for all orders. After %1$s days, the received dodocoins burn out.</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="one">You’ve invited %1$s friend, %2$s more to go</item>
+        <item quantity="other">You’ve invited %1$s friends, %2$s more to go</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_without_limit">
+        <item quantity="one">You’ve invited %1$s friend</item>
+        <item quantity="other">You’ve invited %1$s friends</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d sauce</item>
+        <item quantity="other">%1$d sauces</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="one">until %1$d day</item>
+        <item quantity="other">until %1$d days</item>
+    </plurals>
+</resources>

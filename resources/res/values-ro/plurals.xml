@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d adresă</item>
+        <item quantity="other">%1$d adrese</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_dodocoins_subtitle">
+        <item quantity="zero" />
+        <item quantity="one">în %1$s zi</item>
+        <item quantity="few" />
+        <item quantity="other">în %1$s zile</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_flash_dodocoins_description_v3">
+        <item quantity="zero" />
+        <item quantity="one">De obicei, acestea sunt valabile pentru cel mult %1$s zi. Durata exactă o găsiți în termenii ofertei</item>
+        <item quantity="few" />
+        <item quantity="other">De obicei, acestea sunt valabile pentru cel mult %1$s zile. Durata exactă o găsiți în termenii ofertei</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d zi</item>
+        <item quantity="few">%1$d zile</item>
+        <item quantity="other">%1$d zile</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s minut</item>
+        <item quantity="few">~%1$s minute</item>
+        <item quantity="other">~%1$s minute</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d produs</item>
+        <item quantity="few">%1$d produse</item>
+        <item quantity="other">%1$d produse</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d produs în valoare de %2$s</item>
+        <item quantity="few">%1$d produse în valoare de %2$s</item>
+        <item quantity="other">%1$d produse în valoare de %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">produsul pentru Dodocoins din coș produsele pentru Dodocoins din coș</item>
+        <item quantity="few">produsele pentru Dodo-bani din coș</item>
+        <item quantity="other">produsele pentru Dodocoins din coș</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Bonus pentru %1$s Dodocoins</item>
+        <item quantity="few">Bonus pentru %1$s Dodo-bani</item>
+        <item quantity="other">Bonus pentru %1$s Dodocoins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">Pentru %1$s Dodocoins</item>
+        <item quantity="few">Pentru %1$s Dodocoins</item>
+        <item quantity="other">Pentru %1$s Dodocoins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">Pentru %1$s Dodocoins</item>
+        <item quantity="few">Pentru %1$s Dodocoins</item>
+        <item quantity="other">Pentru %1$s Dodocoins și %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Mai ai nevoie de %1$s Dodocoins pentru a cumpăra produsul</item>
+        <item quantity="few">Mai ai nevoie de %1$s Dodocoins pentru a cumpăra produsul</item>
+        <item quantity="other">Mai ai nevoie de %1$s Dodocoins pentru a cumpăra produsul</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d comandă</item>
+        <item quantity="other">%1$d comenzi</item>
+    </plurals>
+    <plurals name="profile_settings_account_deletion_status_in_days_title">
+        <item quantity="zero" />
+        <item quantity="one">Profilul va fi șters în %1$s zi</item>
+        <item quantity="few" />
+        <item quantity="other">Profilul va fi șters în %1$s zile</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero">Dodocoins sunt monede interne la Dodo. Ele pot fi cheltuite în secțiunea „Profil”. Taxăm dodocoins pentru toate comenzile. După %1$s zi, dodocoinși primite se epuizează.</item>
+        <item quantity="one">Dodocoins sunt monede interne la Dodo. Ele pot fi cheltuite în secțiunea „Profil”. Taxăm dodocoins pentru toate comenzile. După %1$s zi, dodocoinși primite se epuizează.</item>
+        <item quantity="few">Dodocoins sunt monede interne la Dodo. Ele pot fi cheltuite în secțiunea „Profil”. Taxăm dodocoins pentru toate comenzile. După %1$s zile, dodocoinși primite se epuizează.</item>
+        <item quantity="other">Dodocoins sunt monede interne la Dodo. Ele pot fi cheltuite în secțiunea „Profil”. Taxăm dodocoins pentru toate comenzile. După %1$s zile, dodocoinși primite se epuizează.</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="zero" />
+        <item quantity="one">Ați invitat %1$s prieten și încă %2$s mai poți invita</item>
+        <item quantity="few" />
+        <item quantity="other">Ați invitat %1$s prieteni și încă %2$s mai poți invita</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_without_limit">
+        <item quantity="zero" />
+        <item quantity="one">Ați invitat %1$s prieten</item>
+        <item quantity="few" />
+        <item quantity="other">Ați invitat %1$s prieteni</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d sos</item>
+        <item quantity="few">%1$d sosuri</item>
+        <item quantity="other">%1$d sosuri</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero" />
+        <item quantity="one">până %1$d zi</item>
+        <item quantity="few" />
+        <item quantity="other">până %1$d zile</item>
+    </plurals>
+</resources>

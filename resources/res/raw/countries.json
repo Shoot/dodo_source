@@ -1,0 +1,986 @@
+[
+  {
+    "name": "United Arab Emirates",
+    "isoName": "AE",
+    "naturalLanguage": "en-US",
+    "code": 784,
+    "currency": {
+      "code": "AED",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+971 99 999 9999",
+      "code": "+971",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "0565454064",
+      "email": ""
+    },
+    "state": 3,
+    "languages": [
+      "en-US",
+      "ru-RU",
+      "ar-AE"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.ae",
+      "recruiting": "https://job.dodopizza.ae",
+      "noGloves": ""
+    },
+    "order": 19,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 26.07,
+        "lon": 54.17
+      },
+      "lowerRightCorner": {
+        "lat": 24.07,
+        "lon": 56.17
+      }
+    }
+  },
+  {
+    "name": "Armenia",
+    "isoName": "AM",
+    "naturalLanguage": "hy-AM",
+    "code": 51,
+    "currency": {
+      "code": "AMD",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+37499999999",
+      "code": "+374",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "hello@dodopizza.am"
+    },
+    "state": 3,
+    "languages": [
+      "hy-AM",
+      "ru-RU",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.am",
+      "recruiting": "https://job.dodopizza.am",
+      "noGloves": ""
+    },
+    "order": 20,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 40.21,
+        "lon": 44.46
+      },
+      "lowerRightCorner": {
+        "lat": 40.14,
+        "lon": 44.54
+      }
+    }
+  },
+  {
+    "name": "Azerbaijan",
+    "isoName": "AZ",
+    "naturalLanguage": "az-Latn-AZ",
+    "code": 31,
+    "currency": {
+      "code": "AZN",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+994 99 999 99 99",
+      "code": "+994",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodopizza.az"
+    },
+    "state": 3,
+    "languages": [
+      "az-Latn-AZ",
+      "ru-RU",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.az",
+      "recruiting": "https://job.dodopizza.az",
+      "noGloves": ""
+    },
+    "order": 26,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 40.43,
+        "lon": 49.83
+      },
+      "lowerRightCorner": {
+        "lat": 40.37,
+        "lon": 49.9
+      }
+    }
+  },
+  {
+    "name": "Беларусь",
+    "isoName": "BY",
+    "naturalLanguage": "ru-RU",
+    "code": 112,
+    "currency": {
+      "code": "BYN",
+      "customSymbol": "руб."
+    },
+    "phone": {
+      "mask": "+375 99 999-99-99",
+      "code": "+375",
+      "localCode": "80"
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodopizza.by"
+    },
+    "state": 3,
+    "languages": [
+      "ru-RU"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.ru",
+      "general": "https://dodopizza.by",
+      "recruiting": "https://rabotavdodo.by",
+      "noGloves": ""
+    },
+    "order": 3,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 54.9,
+        "lon": 26.57
+      },
+      "lowerRightCorner": {
+        "lat": 52.9,
+        "lon": 28.57
+      }
+    }
+  },
+  {
+    "name": "Cyprus",
+    "isoName": "CY",
+    "naturalLanguage": "en-US",
+    "code": 196,
+    "currency": {
+      "code": "EUR",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+357 99 999 999",
+      "code": "+357",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodopizza.com.cy"
+    },
+    "state": 3,
+    "languages": [
+      "en-US",
+      "el-GR"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.com.cy",
+      "recruiting": "https://job.dodopizza.com.cy",
+      "noGloves": ""
+    },
+    "order": 23,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 34.7,
+        "lon": 33.01
+      },
+      "lowerRightCorner": {
+        "lat": 34.68,
+        "lon": 33.07
+      }
+    }
+  },
+  {
+    "name": "Germany",
+    "isoName": "DE",
+    "naturalLanguage": "de-DE",
+    "code": 276,
+    "currency": {
+      "code": "EUR",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+49 9999999999?9",
+      "code": "+49",
+      "localCode": "49"
+    },
+    "feedback": {
+      "phone": "",
+      "email": ""
+    },
+    "state": 3,
+    "languages": [
+      "de-DE",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.de",
+      "recruiting": "https://dodopizza.join.com",
+      "noGloves": ""
+    },
+    "order": 11,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 49.14,
+        "lon": 10.58
+      },
+      "lowerRightCorner": {
+        "lat": 47.14,
+        "lon": 12.58
+      }
+    }
+  },
+  {
+    "name": "Estonia",
+    "isoName": "EE",
+    "naturalLanguage": "et-EE",
+    "code": 233,
+    "currency": {
+      "code": "EUR",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+372 9999999?9",
+      "code": "+372",
+      "localCode": "372"
+    },
+    "feedback": {
+      "phone": "",
+      "email": "info@dodopizza.ee"
+    },
+    "state": 3,
+    "languages": [
+      "et-EE",
+      "en-US",
+      "fi-FI",
+      "ru-RU"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.ee",
+      "recruiting": "https://cv.dodopizza.ee",
+      "noGloves": ""
+    },
+    "order": 5,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 60.44,
+        "lon": 23.75
+      },
+      "lowerRightCorner": {
+        "lat": 58.44,
+        "lon": 25.75
+      }
+    }
+  },
+  {
+    "name": "Georgia",
+    "isoName": "GE",
+    "naturalLanguage": "ka-GE",
+    "code": 268,
+    "currency": {
+      "code": "GEL",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+995 999 999 999",
+      "code": "+995",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodopizza.ge"
+    },
+    "state": 3,
+    "languages": [
+      "ka-GE",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.ge",
+      "recruiting": "https://job.dodopizza.ge",
+      "noGloves": ""
+    },
+    "order": 27,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 41.66,
+        "lon": 41.58
+      },
+      "lowerRightCorner": {
+        "lat": 41.56,
+        "lon": 41.67
+      }
+    }
+  },
+  {
+    "name": "Croatia",
+    "isoName": "HR",
+    "naturalLanguage": "hr-HR",
+    "code": 191,
+    "currency": {
+      "code": "EUR",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+385 99 999 9999",
+      "code": "+385",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "info@dodopizza.hr"
+    },
+    "state": 2,
+    "languages": [
+      "hr-HR",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.hr",
+      "recruiting": "https://job.dodopizza.hr",
+      "noGloves": ""
+    },
+    "order": 24,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 45.82,
+        "lon": 15.84
+      },
+      "lowerRightCorner": {
+        "lat": 45.78,
+        "lon": 16.06
+      }
+    }
+  },
+  {
+    "name": "Кыргызстан",
+    "isoName": "KG",
+    "naturalLanguage": "ru-RU",
+    "code": 417,
+    "currency": {
+      "code": "KGS",
+      "customSymbol": "сом"
+    },
+    "phone": {
+      "mask": "+996-999-999999",
+      "code": "+996",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodopizza.kg"
+    },
+    "state": 3,
+    "languages": [
+      "ru-RU",
+      "en-US",
+      "ky-KG"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.ru",
+      "general": "https://dodopizza.kg",
+      "recruiting": "https://job.dodopizza.kg",
+      "noGloves": "https://bezperchatok.ru"
+    },
+    "order": 12,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 43.87,
+        "lon": 73.59
+      },
+      "lowerRightCorner": {
+        "lat": 41.87,
+        "lon": 75.59
+      }
+    }
+  },
+  {
+    "name": "Казахстан",
+    "isoName": "KZ",
+    "naturalLanguage": "ru-RU",
+    "code": 398,
+    "currency": {
+      "code": "KZT",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+7 (999) 999-99-99",
+      "code": "+7",
+      "localCode": "8"
+    },
+    "feedback": {
+      "phone": "+7 771 944 40 04",
+      "email": "feedback@dodopizza.kz",
+      "orderTrackingPhone": "+7 747 447 0707"
+    },
+    "state": 3,
+    "languages": [
+      "ru-RU",
+      "kk-KZ",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.ru",
+      "general": "https://dodopizza.kz",
+      "recruiting": "https://rabotavdodo.kz",
+      "noGloves": ""
+    },
+    "order": 2,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 52.18,
+        "lon": 70.45
+      },
+      "lowerRightCorner": {
+        "lat": 50.18,
+        "lon": 72.45
+      }
+    }
+  },
+  {
+    "name": "Lithuania",
+    "isoName": "LT",
+    "naturalLanguage": "lt-LT",
+    "code": 440,
+    "currency": {
+      "code": "EUR",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+370 999 99999",
+      "code": "+370",
+      "localCode": "370"
+    },
+    "feedback": {
+      "phone": "",
+      "email": "kokybe@dodopizza.lt"
+    },
+    "state": 3,
+    "languages": [
+      "lt-LT",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.lt",
+      "recruiting": "https://cv.dodopizza.lt",
+      "noGloves": ""
+    },
+    "order": 4,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 55.69,
+        "lon": 24.28
+      },
+      "lowerRightCorner": {
+        "lat": 53.69,
+        "lon": 26.28
+      }
+    }
+  },
+  {
+    "name": "Nigeria",
+    "isoName": "NG",
+    "naturalLanguage": "en-GB",
+    "code": 566,
+    "currency": {
+      "code": "NGN",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+234 999 999 9999",
+      "code": "+234",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "contact@dodopizza.ng"
+    },
+    "state": 3,
+    "languages": [
+      "en-GB"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.ng",
+      "recruiting": "https://cv.dodopizza.ng",
+      "noGloves": ""
+    },
+    "order": 9,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 10.06,
+        "lon": 6.5
+      },
+      "lowerRightCorner": {
+        "lat": 8.06,
+        "lon": 8.5
+      }
+    }
+  },
+  {
+    "name": "Poland",
+    "isoName": "PL",
+    "naturalLanguage": "pl-PL",
+    "code": 616,
+    "currency": {
+      "code": "PLN",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+48 999 999 999",
+      "code": "+48",
+      "localCode": "48"
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodopizza.pl"
+    },
+    "state": 3,
+    "languages": [
+      "pl-PL",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.pl",
+      "recruiting": "https://job.dodopizza.pl",
+      "noGloves": ""
+    },
+    "order": 6,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 53.23,
+        "lon": 20.01
+      },
+      "lowerRightCorner": {
+        "lat": 51.23,
+        "lon": 22.01
+      }
+    }
+  },
+  {
+    "name": "Romania",
+    "isoName": "RO",
+    "naturalLanguage": "ro-RO",
+    "code": 642,
+    "currency": {
+      "code": "RON",
+      "customSymbol": "lei"
+    },
+    "phone": {
+      "mask": "+4 9999-999-999",
+      "code": "+4",
+      "localCode": "4"
+    },
+    "feedback": {
+      "phone": "0760-263-636",
+      "email": "feedback@dodopizza.ro"
+    },
+    "state": 3,
+    "languages": [
+      "ro-RO",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.ro",
+      "recruiting": "https://angajaridodo.ro",
+      "noGloves": ""
+    },
+    "order": 7,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 45.43,
+        "lon": 25.11
+      },
+      "lowerRightCorner": {
+        "lat": 43.43,
+        "lon": 27.11
+      }
+    }
+  },
+  {
+    "name": "Serbia",
+    "isoName": "RS",
+    "naturalLanguage": "sr-Latn-RS",
+    "code": 688,
+    "currency": {
+      "code": "RSD",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+381 99 999 9999",
+      "code": "+381",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodopizza.rs"
+    },
+    "state": 3,
+    "languages": [
+      "sr-Latn-RS",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.rs",
+      "recruiting": "https://job.dodopizza.rs",
+      "noGloves": ""
+    },
+    "order": 21,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 45.29,
+        "lon": 19.78
+      },
+      "lowerRightCorner": {
+        "lat": 45.25,
+        "lon": 19.85
+      }
+    }
+  },
+  {
+    "name": "Россия",
+    "isoName": "RU",
+    "naturalLanguage": "ru-RU",
+    "code": 643,
+    "currency": {
+      "code": "RUB",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+7 (999) 999-99-99",
+      "code": "+7",
+      "localCode": "8"
+    },
+    "feedback": {
+      "phone": "8 800 302-00-60",
+      "email": "feedback@dodopizza.com",
+      "orderTrackingPhone": "+7 800 511-00-60"
+    },
+    "state": 3,
+    "languages": [
+      "ru-RU",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [
+      {
+        "code": "OrderReceipt"
+      },
+      {
+        "code": "DodoRubles"
+      }
+    ],
+    "websites": {
+      "controlling": "https://dodocontrol.ru",
+      "general": "https://dodopizza.ru",
+      "recruiting": "https://rabotavdodo.ru",
+      "noGloves": "https://bezperchatok.ru"
+    },
+    "order": 1,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 56.75,
+        "lon": 37.62
+      },
+      "lowerRightCorner": {
+        "lat": 54.75,
+        "lon": 39.62
+      }
+    }
+  },
+  {
+    "name": "Slovenia",
+    "isoName": "SI",
+    "naturalLanguage": "sl-SI",
+    "code": 705,
+    "currency": {
+      "code": "EUR",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+38699999999",
+      "code": "+386",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "info@dodopizza.si"
+    },
+    "state": 3,
+    "languages": [
+      "sl-SI",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.si",
+      "recruiting": "https://job.dodopizza.si",
+      "noGloves": ""
+    },
+    "order": 10,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 47.05,
+        "lon": 13.51
+      },
+      "lowerRightCorner": {
+        "lat": 45.05,
+        "lon": 15.51
+      }
+    }
+  },
+  {
+    "name": "Tajikistan",
+    "isoName": "TJ",
+    "naturalLanguage": "ru-RU",
+    "code": 762,
+    "currency": {
+      "code": "TJS",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+992 99-999-9999",
+      "code": "+992",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodopizza.tj"
+    },
+    "state": 3,
+    "languages": [
+      "ru-RU",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.tj",
+      "recruiting": "https://job.dodopizza.tj",
+      "noGloves": ""
+    },
+    "order": 15,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 39.54,
+        "lon": 67.78
+      },
+      "lowerRightCorner": {
+        "lat": 37.54,
+        "lon": 69.78
+      }
+    }
+  },
+  {
+    "name": "Turkey",
+    "isoName": "TR",
+    "naturalLanguage": "tr-TR",
+    "code": 792,
+    "currency": {
+      "code": "TRY",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+90 999 999 99 99",
+      "code": "+90",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "hello@dodopizza.com.tr"
+    },
+    "state": 3,
+    "languages": [
+      "tr-TR",
+      "ru-RU",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.com.tr",
+      "recruiting": "https://job.dodopizza.com.tr",
+      "noGloves": ""
+    },
+    "order": 22,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 38.51,
+        "lon": 27.04
+      },
+      "lowerRightCorner": {
+        "lat": 38.29,
+        "lon": 27.13
+      }
+    }
+  },
+  {
+    "name": "Узбекистан",
+    "isoName": "UZ",
+    "naturalLanguage": "ru-RU",
+    "code": 860,
+    "currency": {
+      "code": "UZS",
+      "customSymbol": "сум"
+    },
+    "phone": {
+      "mask": "+998 99 999 9999",
+      "code": "+998",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodopizza.uz"
+    },
+    "state": 3,
+    "languages": [
+      "ru-RU",
+      "en-US",
+      "uz-Latn-UZ"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.ru",
+      "general": "https://dodopizza.uz",
+      "recruiting": "https://job.dodopizza.uz",
+      "noGloves": "https://bezperchatok.ru"
+    },
+    "order": 13,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 42.26,
+        "lon": 68.22
+      },
+      "lowerRightCorner": {
+        "lat": 40.26,
+        "lon": 70.22
+      }
+    }
+  },
+  {
+    "name": "Vietnam",
+    "isoName": "VN",
+    "naturalLanguage": "vi-VN",
+    "code": 704,
+    "currency": {
+      "code": "VND",
+      "customSymbol": null
+    },
+    "phone": {
+      "mask": "+84 99 999 9999",
+      "code": "+84",
+      "localCode": ""
+    },
+    "feedback": {
+      "phone": "",
+      "email": "feedback@dodo-pizza.vn"
+    },
+    "state": 3,
+    "languages": [
+      "vi-VN",
+      "en-US"
+    ],
+    "faceValues": [],
+    "features": [],
+    "websites": {
+      "controlling": "https://dodocontrol.com",
+      "general": "https://dodopizza.vn",
+      "recruiting": "https://job.dodopizza.vn",
+      "noGloves": ""
+    },
+    "order": 14,
+    "baseUrl": "https://mapi.dodopizza.ru",
+    "mapBounds": {
+      "upperLeftCorner": {
+        "lat": 11.82,
+        "lon": 105.63
+      },
+      "lowerRightCorner": {
+        "lat": 9.82,
+        "lon": 107.63
+      }
+    }
+  }
+]

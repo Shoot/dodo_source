@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="zero">%1$d osoitetta</item>
+        <item quantity="one">%1$d osoite</item>
+        <item quantity="other">%1$d osoitetta</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="zero">%1$d päivää</item>
+        <item quantity="one">%1$d päivä</item>
+        <item quantity="other">%1$d päivää</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="zero">~%1$s minuuttia</item>
+        <item quantity="one">~%1$s minuutti</item>
+        <item quantity="other">~%1$s minuuttia</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="zero">%1$d tuotetta</item>
+        <item quantity="one">%1$d tuote</item>
+        <item quantity="other">%1$d tuotetta</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="zero">%1$d tuotetta %2$s:lla</item>
+        <item quantity="one">%1$d tuote %2$s:lla</item>
+        <item quantity="other">%1$d tuotetta %2$s:lla</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="zero">dodocoineilla ostettua tuotetta korissa</item>
+        <item quantity="one">dodocoineilla ostettu tuote korissa</item>
+        <item quantity="other">dodocoineilla ostettua tuotetta korissa</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="zero">Bonus %1$s dodocoinista</item>
+        <item quantity="one">Bonus %1$s dodocoinista</item>
+        <item quantity="other">Bonus %1$s dodocoinista</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="zero">%1$s coinilla</item>
+        <item quantity="one">%1$s coinilla</item>
+        <item quantity="other">%1$s coinilla</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="zero">%1$s coinilla ja %2$s</item>
+        <item quantity="one">%1$s coinilla ja %2$s</item>
+        <item quantity="other">%1$s coinilla ja %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="zero">Puuttuu %1$s coinia</item>
+        <item quantity="one">Puuttuu %1$s coinia</item>
+        <item quantity="other">Puuttuu %1$s coinia</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uusi ilmoitus</item>
+        <item quantity="other">%d uutta ilmoitusta</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="zero">%1$d tilausta</item>
+        <item quantity="one">%1$d tilaus</item>
+        <item quantity="other">%1$d tilausta</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero">Dodocoinit  ovat Dodon sisäistä valuuttaa. Niitä voi kuluttaa osastossa ”Profiili”. Meillä dodocoineja kertyy kaikille tilauksille. Saamasi dococoinit häviävät %1$s päivän kuluttua.</item>
+        <item quantity="one">Dodocoinit  ovat Dodon sisäistä valuuttaa. Niitä voi kuluttaa osastossa ”Profiili”. Meillä dodocoineja kertyy kaikille tilauksille. Saamasi dococoinit häviävät %1$s päivän kuluttua.</item>
+        <item quantity="other">Dodocoinit  ovat Dodon sisäistä valuuttaa. Niitä voi kuluttaa osastossa ”Profiili”. Meillä dodocoineja kertyy kaikille tilauksille. Saamasi dococoinit häviävät %1$s päivän kuluttua.</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="zero">%1$d kastiketta</item>
+        <item quantity="one">%1$d kastike</item>
+        <item quantity="other">%1$d kastiketta</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero">ennen %1$d päivää</item>
+        <item quantity="one">ennen %1$d päivää</item>
+        <item quantity="other">ennen %1$d päivää</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/text_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:endIconMode="clear_text" style="@style/TextInputLayout.ExposedDropdownMenu">
+    <com.dodopizza.android.view.custom.textview.AlwaysVisibleSuggestsAutocompleteTextView android:textAppearance="?attr/textAppearanceTextL" android:id="@+id/edit_text" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="text" android:imeOptions="actionNext"/>
+</com.google.android.material.textfield.TextInputLayout>

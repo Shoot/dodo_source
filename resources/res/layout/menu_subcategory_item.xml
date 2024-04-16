@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:minHeight="28dp" android:checkable="true" android:stateListAnimator="@animator/menu_subcategory_item_animator_selector" app:cardElevation="0dp" app:cardForegroundColor="@color/transparent" app:checkedIcon="@null" app:contentPaddingLeft="16dp" app:contentPaddingRight="16dp" style="@style/CardView.8">
+    <TextView android:textAppearance="?attr/textAppearanceTextM" android:layout_gravity="center" android:id="@+id/menu_subcategory_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:maxLines="3"/>
+</com.google.android.material.card.MaterialCardView>

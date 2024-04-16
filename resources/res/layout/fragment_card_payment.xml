@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/backgroundPrimaryColor" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@+id/web_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/back_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:backgroundTint="@color/surfacePrimaryColor" app:elevation="8dp" app:fabSize="mini" app:srcCompat="@drawable/ic_arrow_start" app:tint="@color/textIconPrimaryColor"/>
+    <include android:layout_gravity="bottom" android:id="@+id/alert_message" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/internet_alert_message"/>
+    <ProgressBar android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <com.dodopizza.android.view.custom.InfoMessage android:id="@+id/info_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

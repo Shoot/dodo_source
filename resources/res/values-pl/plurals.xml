@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="zero">%1$d adresów</item>
+        <item quantity="one">%1$d adres</item>
+        <item quantity="few">%1$d adresy</item>
+        <item quantity="many">%1$d adresów</item>
+        <item quantity="other">%1$d adresów</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_dodocoins_subtitle">
+        <item quantity="zero">w %1$s dni</item>
+        <item quantity="one">w %1$s dzień</item>
+        <item quantity="few">w %1$s dni</item>
+        <item quantity="many">w %1$s dni</item>
+        <item quantity="other">w %1$s dni</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_flash_dodocoins_description_v3">
+        <item quantity="zero">Zazwyczaj są one ważne nie dłużej niż przez %1$s dni. Dokładny czas ważności można znaleźć w warunkach oferty</item>
+        <item quantity="one">Zazwyczaj są one ważne nie dłużej niż przez %1$s dzień. Dokładny czas ważności można znaleźć w warunkach oferty</item>
+        <item quantity="few">Zazwyczaj są one ważne nie dłużej niż przez %1$s dni. Dokładny czas ważności można znaleźć w warunkach oferty</item>
+        <item quantity="many">Zazwyczaj są one ważne nie dłużej niż przez %1$s dni. Dokładny czas ważności można znaleźć w warunkach oferty</item>
+        <item quantity="other">Zazwyczaj są one ważne nie dłużej niż przez %1$s dni. Dokładny czas ważności można znaleźć w warunkach oferty</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="zero">%1$d day</item>
+        <item quantity="one">%1$d day</item>
+        <item quantity="few">%1$d day</item>
+        <item quantity="many">%1$d day</item>
+        <item quantity="other">%1$d day</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="zero">~%1$s minut</item>
+        <item quantity="one">~%1$s minuta</item>
+        <item quantity="few">~%1$s minut</item>
+        <item quantity="many">~%1$s minut</item>
+        <item quantity="other">~%1$s minut</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="zero">%1$d towarów</item>
+        <item quantity="one">%1$d towar</item>
+        <item quantity="few">%1$d towary</item>
+        <item quantity="many">%1$d towarów</item>
+        <item quantity="other">%1$d towarów</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="zero">%1$d produktów w cenie %2$s</item>
+        <item quantity="one">%1$d produkt w cenie %2$s</item>
+        <item quantity="few">%1$d produktów w cenie %2$s</item>
+        <item quantity="many">%1$d produktów w cenie %2$s</item>
+        <item quantity="other">%1$d produktów w cenie %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="zero">produktów za Monety Dodo dodano do koszyka</item>
+        <item quantity="one">produkt za Monety Dodo dodany do koszyka</item>
+        <item quantity="few">produktów za Monety Dodo dodano do koszyka</item>
+        <item quantity="many">produktów za Monety Dodo dodano do koszyka</item>
+        <item quantity="other">produktów za Monety Dodo dodano do koszyka</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="zero">Bonusy for %1$s dodo monety</item>
+        <item quantity="one">Bonus za %1$s dodo monety</item>
+        <item quantity="few">Bonusów za %1$s dodo monety</item>
+        <item quantity="many">Bonusy for %1$s dodo monety</item>
+        <item quantity="other">Bonus za %1$s dodo monety</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="zero">Za %1$s monet</item>
+        <item quantity="one">Za %1$s monetę</item>
+        <item quantity="few">Za %1$s monet</item>
+        <item quantity="many">Za %1$s monet</item>
+        <item quantity="other">Za %1$s monet</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="zero">Za %1$s monet i %2$s</item>
+        <item quantity="one">Za %1$s monetę i %2$s</item>
+        <item quantity="few">Za %1$s monet i %2$s</item>
+        <item quantity="many">Za %1$s monet i %2$s</item>
+        <item quantity="other">Za %1$s monet i %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="zero">Brakuje %1$s monet dla zakupu</item>
+        <item quantity="one">Brakuje %1$s monety dla zakupu</item>
+        <item quantity="few">Brakuje %1$s monet dla zakupu</item>
+        <item quantity="many">Brakuje %1$s monet dla zakupu</item>
+        <item quantity="other">Brakuje %1$s monet dla zakupu</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">%d nowego powiadomienia</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="zero">%1$d zamówień</item>
+        <item quantity="one">%1$d zamówienie</item>
+        <item quantity="few">%1$d zamówienia</item>
+        <item quantity="many">%1$d zamówień</item>
+        <item quantity="other">%1$d zamówień</item>
+    </plurals>
+    <plurals name="profile_settings_account_deletion_status_in_days_title">
+        <item quantity="zero">Profil zostanie usunięty za %1$s dni</item>
+        <item quantity="one">Profil zostanie usunięty za %1$s dzień</item>
+        <item quantity="few">Profil zostanie usunięty za %1$s dni</item>
+        <item quantity="many">Profil zostanie usunięty za %1$s dni</item>
+        <item quantity="other">Profil zostanie usunięty za %1$s dni</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero">Dodomonety są wewnętrzną walutą Dodo. Można je wydać poprzez zakładkę Profil. Naliczamy dodomonety za wszystkie zamówienia. Po %1$s dniach otrzymane dodomonety wygasają.</item>
+        <item quantity="one">Dodomonety są wewnętrzną walutą Dodo. Można je wydać poprzez zakładkę Profil. Naliczamy dodomonety za wszystkie zamówienia. Po %1$s dniach otrzymane dodomonety wygasają.</item>
+        <item quantity="few">Dodomonety są wewnętrzną walutą Dodo. Można je wydać poprzez zakładkę Profil. Naliczamy dodomonety za wszystkie zamówienia. Po %1$s dniach otrzymane dodomonety wygasają.</item>
+        <item quantity="many">Dodomonety są wewnętrzną walutą Dodo. Można je wydać poprzez zakładkę Profil. Naliczamy dodomonety za wszystkie zamówienia. Po %1$s dniach otrzymane dodomonety wygasają.</item>
+        <item quantity="other">Dodomonety są wewnętrzną walutą Dodo. Można je wydać poprzez zakładkę Profil. Naliczamy dodomonety za wszystkie zamówienia. Po %1$s dniach otrzymane dodomonety wygasają.</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="zero">Zaprosiłeś %1$s znajomych, %2$s więcej do zrobienia</item>
+        <item quantity="one">Zaprosiłeś %1$s znajomego, %2$s więcej do zrobienia</item>
+        <item quantity="few">Zaprosiłeś %1$s znajomych, %2$s więcej do zrobienia</item>
+        <item quantity="many">Zaprosiłeś %1$s znajomych, %2$s więcej do zrobienia</item>
+        <item quantity="other">Zaprosiłeś %1$s znajomych, %2$s więcej do zrobienia</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_without_limit">
+        <item quantity="zero">Zaprosiłeś %1$s znajomych</item>
+        <item quantity="one">Zaprosiłeś %1$s znajomego</item>
+        <item quantity="few">Zaprosiłeś %1$s znajomych</item>
+        <item quantity="many">Zaprosiłeś %1$s znajomych</item>
+        <item quantity="other">Zaprosiłeś %1$s znajomego</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="zero">%1$d sosów</item>
+        <item quantity="one">%1$d sos</item>
+        <item quantity="few">%1$d sosy</item>
+        <item quantity="many">%1$d sosów</item>
+        <item quantity="other">%1$d sosów</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero">%1$d dzień</item>
+        <item quantity="one">%1$d dni</item>
+        <item quantity="few">%1$d dzień</item>
+        <item quantity="many">%1$d dni</item>
+        <item quantity="other">%1$d dni</item>
+    </plurals>
+</resources>

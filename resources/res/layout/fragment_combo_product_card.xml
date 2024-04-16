@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:id="@+id/combo_card_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/combo_card_bottom_shopping_bar" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/combo_card_image" android:layout_width="match_parent" android:layout_height="344dp" android:layout_marginLeft="24dp" android:layout_marginTop="32dp" android:layout_marginRight="24dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/description_container" android:background="@drawable/dialog_bottom_white_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="16dp">
+                    <TextView android:textAppearance="?attr/textAppearanceHeadingH1" android:id="@+id/product_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/combo_card_info_icon"/>
+                    <com.dodopizza.order.feature.product.card.presentation.view.ExpandableFoodValueInfoIconView android:id="@+id/combo_card_info_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_alignParentEnd="true" app:tint="@color/textIconSecondaryColor"/>
+                </RelativeLayout>
+                <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconSecondaryColor" android:id="@+id/combo_card_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/combo_card_entity_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/combo_card_summary_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp"/>
+                <TextView android:textAppearance="?attr/textAppearanceTextL" android:id="@+id/combo_card_weight" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:id="@+id/combo_card_drop_shadow" android:background="@drawable/footer_dropshadow" android:layout_width="match_parent" android:layout_height="8dp" android:layout_above="@+id/combo_card_bottom_shopping_bar"/>
+    <com.dodopizza.order.feature.product.card.presentation.shoppingitem.ProductCardBottomView android:id="@+id/combo_card_bottom_shopping_bar" android:background="@color/surfacePrimaryColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    <com.dodopizza.order.feature.product.card.presentation.shoppingitem.ShoppingItemNavigationBar android:id="@+id/combo_card_item_navigation_bar" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

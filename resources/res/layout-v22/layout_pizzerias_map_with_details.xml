@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ru.dodopizza.app.presentation.selectpizzeria.PizzeriasMap android:id="@+id/pizzerias_map_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/pizzerias_map_pizzeria_card_container" android:background="@drawable/dialog_bottom_white_background" android:paddingBottom="84dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:behavior_peekHeight="180dp" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/ic_sheet_close_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:contentDescription="@null"/>
+            <ru.dodopizza.app.presentation.selectpizzeria.PizzeriaCard android:id="@+id/pizzerias_map_pizzeria_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.dodopizza.android.view.custom.InfoMessage android:layout_gravity="bottom" android:id="@+id/pizzerias_map_info_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="60dp"/>
+        <RelativeLayout android:id="@+id/pizzerias_map_button_container" android:layout_width="match_parent" android:layout_height="64dp" app:behavior_peekHeight="68dp" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+            <View android:id="@+id/pizzeria_map_button_background" android:background="@color/surfacePrimaryColor" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/pizzerias_map_button_container_dropshadow"/>
+            <View android:id="@+id/pizzerias_map_button_container_dropshadow" android:background="@drawable/footer_dropshadow" android:layout_width="match_parent" android:layout_height="4dp"/>
+            <Button android:id="@+id/pizzerias_map_pick_up_pizza_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:text="@string/pick_up_pizza_here" android:layout_centerInParent="true" android:layout_marginHorizontal="16dp" style="@style/PrimaryButton"/>
+            <ProgressBar android:id="@+id/pizzerias_map_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

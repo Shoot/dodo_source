@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_share" android:id="@+id/action_share" android:visible="false" android:title="@string/web_view_share_button_title" app:iconTint="@color/textIconPrimaryColor" app:showAsAction="always"/>
+</menu>

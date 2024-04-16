@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="zero">%1$d địa chỉ</item>
+        <item quantity="one">%1$d địa chỉ</item>
+        <item quantity="two">%1$d địa chỉ</item>
+        <item quantity="few">%1$d địa chỉ</item>
+        <item quantity="many">%1$d địa chỉ</item>
+        <item quantity="other">%1$d địa chỉ</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="zero">%1$d ngày</item>
+        <item quantity="one">%1$d ngày</item>
+        <item quantity="two">%1$d ngày</item>
+        <item quantity="few">%1$d ngày</item>
+        <item quantity="many">%1$d ngày</item>
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="zero">~%1$s phút</item>
+        <item quantity="one">~%1$s phút</item>
+        <item quantity="two">~%1$s phút</item>
+        <item quantity="few">~%1$s phút</item>
+        <item quantity="many">~%1$s phút</item>
+        <item quantity="other">~%1$s phút</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="zero">%1$d món</item>
+        <item quantity="one">%1$d món</item>
+        <item quantity="two">%1$d món</item>
+        <item quantity="few">%1$d món</item>
+        <item quantity="many">%1$d món</item>
+        <item quantity="other">%1$d món</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="zero">%1$d sản phẩm %2$s</item>
+        <item quantity="one">%1$d mặt hàng tại giá %2$s</item>
+        <item quantity="two">%1$d sản phẩm %2$s</item>
+        <item quantity="few">%1$d sản phẩm %2$s</item>
+        <item quantity="many">%1$d sản phẩm %2$s</item>
+        <item quantity="other">%1$d sản phẩm %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="zero">Sản phẩm đổi bằng Dodo Xu trong giỏ hàng</item>
+        <item quantity="one">Sản phẩm trả bằng Dodo xu đang ở trong giỏ</item>
+        <item quantity="two">Sản phẩm đổi bằng Dodo Xu trong giỏ hàng</item>
+        <item quantity="few">Sản phẩm đổi bằng Dodo Xu trong giỏ hàng</item>
+        <item quantity="many">Sản phẩm đổi bằng Dodo Xu trong giỏ hàng</item>
+        <item quantity="other">Sản phẩm đổi bằng Dodo Xu trong giỏ hàng</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="zero">Điểm thưởng cho %1$s Xu Dodo</item>
+        <item quantity="one">Phần thưởng cho %1$s Dodo xu</item>
+        <item quantity="two">Điểm thưởng cho %1$s Xu Dodo</item>
+        <item quantity="few">Điểm thưởng cho %1$s Xu Dodo</item>
+        <item quantity="many">Điểm thưởng cho %1$s Xu Dodo</item>
+        <item quantity="other">Điểm thưởng cho %1$s Xu Dodo</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="zero">Cho %1$s xu</item>
+        <item quantity="one">Cho %1$s xu</item>
+        <item quantity="two">Cho %1$s xu</item>
+        <item quantity="few">Cho %1$s xu</item>
+        <item quantity="many">Cho %1$s xu</item>
+        <item quantity="other">Cho %1$s xu</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="zero">Cho %1$s xu và %2$s</item>
+        <item quantity="one">Cho %1$s xu và %2$s</item>
+        <item quantity="two">Cho %1$s xu và %2$s</item>
+        <item quantity="few">Cho %1$s xu và %2$s</item>
+        <item quantity="many">Cho %1$s xu và %2$s</item>
+        <item quantity="other">Cho %1$s xu và %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="zero">Không đủ %1$s xu để mua</item>
+        <item quantity="one">Không đủ %1$s xu để mua</item>
+        <item quantity="two">Không đủ %1$s xu để mua</item>
+        <item quantity="few">Không đủ %1$s xu để mua</item>
+        <item quantity="many">Không đủ %1$s xu để mua</item>
+        <item quantity="other">Không đủ %1$s xu để mua</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="zero">%1$d đơn hàng</item>
+        <item quantity="one">%1$d đơn hàng</item>
+        <item quantity="two">%1$d đơn hàng</item>
+        <item quantity="few">%1$d đơn hàng</item>
+        <item quantity="many">%1$d đơn hàng</item>
+        <item quantity="other">%1$d đơn hàng</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero">Dodo Xu là xu nội bộ của Dodo. Chúng có thể được sử dụng trong phần Tài khoản. Dodo Xu được dùng để trả cho các đơn đặt hàng. Sau %1$s ngày, số Dodo Xu nhận được sẽ hết.</item>
+        <item quantity="one">Dodo Xu là xu nội bộ của Dodo. Chúng có thể được sử dụng trong phần Tài khoản. Dodo Xu được dùng để trả cho các đơn đặt hàng. Sau %1$s ngày, số Dodo Xu nhận được sẽ hết.</item>
+        <item quantity="two">Dodo Xu là xu nội bộ của Dodo. Chúng có thể được sử dụng trong phần Tài khoản. Dodo Xu được dùng để trả cho các đơn đặt hàng. Sau %1$s ngày, số Dodo Xu nhận được sẽ hết.</item>
+        <item quantity="few">Dodo Xu là xu nội bộ của Dodo. Chúng có thể được sử dụng trong phần Tài khoản. Dodo Xu được dùng để trả cho các đơn đặt hàng. Sau %1$s ngày, số Dodo Xu nhận được sẽ hết.</item>
+        <item quantity="many">Dodo Xu là xu nội bộ của Dodo. Chúng có thể được sử dụng trong phần Tài khoản. Dodo Xu được dùng để trả cho các đơn đặt hàng. Sau %1$s ngày, số Dodo Xu nhận được sẽ hết.</item>
+        <item quantity="other">Dodo Xu là xu nội bộ của Dodo. Chúng có thể được sử dụng trong phần Tài khoản. Dodo Xu được dùng để trả cho các đơn đặt hàng. Sau %1$s ngày, số Dodo Xu nhận được sẽ hết.</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="zero">Bạn đã mời được %1$s bạn, %2$s nữa để hoàn thành</item>
+        <item quantity="one">Bạn đã mời được %1$s bạn, %2$s nữa để hoàn thành</item>
+        <item quantity="two">Bạn đã mời được %1$s bạn, %2$s nữa để hoàn thành</item>
+        <item quantity="few">Bạn đã mời được %1$s bạn, %2$s nữa để hoàn thành</item>
+        <item quantity="many">Bạn đã mời được %1$s bạn, %2$s nữa để hoàn thành</item>
+        <item quantity="other">Bạn đã mời được %1$s bạn, %2$s nữa để hoàn thành</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="zero">%1$d xốt</item>
+        <item quantity="one">%1$d sốt</item>
+        <item quantity="two">%1$d xốt</item>
+        <item quantity="few">%1$d xốt</item>
+        <item quantity="many">%1$d xốt</item>
+        <item quantity="other">%1$d xốt</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero">đến %1$d ngày</item>
+        <item quantity="one">đến %1$d ngày</item>
+        <item quantity="two">đến %1$d ngày</item>
+        <item quantity="few">đến %1$d ngày</item>
+        <item quantity="many">đến %1$d ngày</item>
+        <item quantity="other">đến %1$d ngày</item>
+    </plurals>
+</resources>

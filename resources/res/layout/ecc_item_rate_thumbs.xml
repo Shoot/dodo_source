@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <im.threads.ui.widget.textView.BubbleMessageTextView android:textColor="@color/ecc_chat_system_message" android:gravity="center" android:id="@+id/ask_for_rate" android:layout_width="250dp" android:layout_height="wrap_content" android:text="@string/ecc_ask_to_rate"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/ecc_activity_vertical_margin">
+        <ImageView android:id="@+id/thumb_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ecc_activity_horizontal_margin" app:srcCompat="0x7f080103"/>
+        <ImageView android:id="@+id/thumb_down" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="0x7f080101"/>
+    </LinearLayout>
+    <im.threads.ui.widget.textView.BubbleMessageTextView android:textColor="@color/ecc_chat_system_message" android:gravity="center" android:id="@+id/thanks_for_rate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ecc_thanks_for_rate"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/DodopizzaTheme" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/textAppearanceTextM" android:id="@+id/notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="?attr/textAppearanceHeadingH3" android:id="@+id/notification_message" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ProgressBar android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:progressTint="@color/textIconDodoColor" android:progressBackgroundTint="@color/textIconSecondaryColor" style="?android:attr/progressBarStyleHorizontal"/>
+    <FrameLayout android:gravity="start" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/rating_stars" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_stars_5_empty" android:contentDescription="@null"/>
+        <ImageView android:id="@+id/rating_5_stars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_stars_5_filled" android:contentDescription="@string/five_stars_title"/>
+        <ImageView android:id="@+id/rating_4_stars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_stars_4_filled" android:contentDescription="@string/four_stars_title"/>
+        <ImageView android:id="@+id/rating_3_stars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_stars_3_filled" android:contentDescription="@string/three_stars_title"/>
+        <ImageView android:id="@+id/rating_2_stars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_stars_2_filled" android:contentDescription="@string/two_stars_title"/>
+        <ImageView android:id="@+id/rating_1_star" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rating_stars_1_filled" android:contentDescription="@string/one_star_title"/>
+    </FrameLayout>
+</LinearLayout>

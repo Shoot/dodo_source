@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/backgroundPrimaryColor" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ru.dodopizza.app.presentation.payment.card.secure3d.Secure3DWebView android:id="@+id/secure3d" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ru.dodopizza.app.presentation.checkout.PaymentProgressIndicatorView android:id="@+id/progress_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

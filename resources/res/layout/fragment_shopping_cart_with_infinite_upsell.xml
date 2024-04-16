@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/shopping_cart_appbar" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/shopping_cart_toolbar" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:title="@string/shopping_cart" app:titleTextColor="@color/textIconPrimaryColor"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ViewSwitcher android:id="@+id/shopping_cart_content_switcher" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/shopping_cart_appbar" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <include android:id="@+id/shopping_cart_products_container" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/layout_shopping_cart_with_infinite_upsell"/>
+        <include android:id="@+id/shopping_cart_empty_container" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/empty_shopping_cart"/>
+    </ViewSwitcher>
+</RelativeLayout>

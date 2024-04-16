@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconSecondaryColor" android:id="@+id/delivery_location_details_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" app:boxBackgroundColor="@color/surfacePrimaryColor" style="@style/TextInputLayout">
+        <com.google.android.material.textfield.TextInputEditText android:textAppearance="?attr/textAppearanceTextL" android:gravity="start|top" android:id="@+id/delivery_location_details_edit_text" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="zero" />
+        <item quantity="one">%1$d aadress</item>
+        <item quantity="other">%1$d aadressi</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="zero" />
+        <item quantity="one">%1$d päev</item>
+        <item quantity="other">%1$d päeva</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="zero" />
+        <item quantity="one">~%1$s minut</item>
+        <item quantity="other">~%1$s minutit</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="zero" />
+        <item quantity="one">%1$d toode</item>
+        <item quantity="other">%1$d toodet</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="zero" />
+        <item quantity="one">%1$d toode hinnaga %2$s</item>
+        <item quantity="other">%1$d toodet hinnaga %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="zero" />
+        <item quantity="one">toode Dodo-coinide eest</item>
+        <item quantity="other">tooted Dodo-coinide eest</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="zero" />
+        <item quantity="one">Boonus %1$s Dodo-coini eest</item>
+        <item quantity="other">Boonus %1$s Dodo-coini eest</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="zero" />
+        <item quantity="one">%1$s Dodo-coini eest</item>
+        <item quantity="other">%1$s Dodo-coini eest</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="zero" />
+        <item quantity="one">%1$s Dodo-coini ja %2$s eest</item>
+        <item quantity="other">%1$s Dodo-coini ja %2$s eest</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="zero" />
+        <item quantity="one">Sul on puudu %1$s Dodo-coini ostu sooritamiseks</item>
+        <item quantity="other">Sul on puudu %1$s Dodo-coini ostu sooritamiseks</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uus märguanne</item>
+        <item quantity="other">%d uut märguannet</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="zero" />
+        <item quantity="one">%1$d tellimus</item>
+        <item quantity="other">%1$d tellimust</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero">Dodokoiinid on Dodo sisevaluuta. Neid saab kulutada jaotises Profiil. Kõikide tellimuste eest võtame tasu dodocoinidega. %1$s päeva pärast põlevad saadud dodokoiinid läbi.</item>
+        <item quantity="one">Dodokoiinid on Dodo sisevaluuta. Neid saab kulutada jaotises Profiil. Kõikide tellimuste eest võtame tasu dodocoinidega. Pärast %1$s päeva põlevad vastuvõetud dodokoiinid läbi.</item>
+        <item quantity="other">Dodokoiinid on Dodo sisevaluuta. Neid saab kulutada jaotises Profiil. Kõikide tellimuste eest võtame tasu dodocoinidega. %1$s päeva pärast põlevad saadud dodokoiinid läbi.</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="zero" />
+        <item quantity="one">%1$d kaste</item>
+        <item quantity="other">%1$d kastet</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero" />
+        <item quantity="one">kuni %1$d päev</item>
+        <item quantity="other">kuni %1$d päeva</item>
+    </plurals>
+</resources>

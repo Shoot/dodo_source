@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="zero" />
+        <item quantity="one">%1$d alamat</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">%1$d alamat</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="zero" />
+        <item quantity="one">%1$d hari</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="zero" />
+        <item quantity="one">~%1$s menit</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">~%1$s menit</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="zero" />
+        <item quantity="one">%1$d item</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">%1$d item</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="zero" />
+        <item quantity="one">%1$d dari item di harga %2$s</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">%1$d dari item di harga %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="zero" />
+        <item quantity="one">produk untuk dodocoin di keranjang</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">produk untuk dodocoin di keranjang</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="zero" />
+        <item quantity="one">Bonus untuk %1$s dodocoin</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">Bonus untuk %1$s dodocoin</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="zero" />
+        <item quantity="one">Untuk %1$s koin</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">Untuk %1$s koin</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="zero" />
+        <item quantity="one">Untuk %1$s koin dan %2$s</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">Untuk %1$s koin dan %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="zero" />
+        <item quantity="one">Tidak cukup %1$s koin untuk pembelian</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">Tidak cukup %1$s koin untuk pembelian</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="zero" />
+        <item quantity="one">%1$d order</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">%1$d order</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero" />
+        <item quantity="one">Dodocoins adalah mata uang internal dari Dodo. Kamu bisa menggunakannya di bagian Profil. Kami mengenakan dodocoins untuk semua pesanan. Setelah %1$s hari, dodocoins yang diterima akan habis.</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">Dodocoins adalah mata uang internal dari Dodo. Kamu bisa menggunakannya di bagian Profil. Kami mengenakan dodocoins untuk semua pesanan. Setelah %1$s hari, dodocoins yang diterima akan habis.</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="zero" />
+        <item quantity="one">%1$d saus</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">%1$d saus</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero" />
+        <item quantity="one">hingga %1$d hari</item>
+        <item quantity="two" />
+        <item quantity="few" />
+        <item quantity="many" />
+        <item quantity="other">hingga %1$d hari</item>
+    </plurals>
+</resources>

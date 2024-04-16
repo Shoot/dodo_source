@@ -1,0 +1,7 @@
+package com.google.firebase.components;
+
+import java.util.List;
+/* loaded from: classes2.dex */
+public interface ComponentRegistrar {
+    List<bm1<?>> getComponents();
+}

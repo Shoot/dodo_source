@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <im.threads.ui.widget.CustomFontTextView android:textSize="@dimen/ecc_text_medium" android:textColor="@color/ecc_quick_reply_text_color" android:gravity="center" android:id="@+id/chip" android:background="0x7f08013b" android:paddingLeft="@dimen/ecc_activity_horizontal_margin" android:paddingTop="@dimen/ecc_margin_half" android:paddingRight="@dimen/ecc_activity_horizontal_margin" android:paddingBottom="@dimen/ecc_margin_half" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ecc_margin_quarter" android:layout_marginTop="@dimen/ecc_margin_quarter" android:layout_marginRight="@dimen/ecc_margin_quarter" android:layout_marginBottom="@dimen/ecc_margin_quarter"/>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/ecc_chat_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/consultImage" android:layout_width="match_parent" android:layout_height="280dp" android:scaleType="centerCrop" android:contentDescription="@string/ecc_consult_portrait" app:srcCompat="0x7f080135"/>
+    <View android:background="@drawable/ecc_background_gradient_black_top_bottom" android:layout_width="match_parent" android:layout_height="100dp" android:layout_alignParentTop="true"/>
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/ecc_ic_arrow_back_white_24dp"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/ecc_outgoing_time_underlay" android:paddingLeft="@dimen/ecc_margin_material" android:paddingTop="@dimen/ecc_margin_material" android:paddingRight="@dimen/ecc_margin_material" android:paddingBottom="@dimen/ecc_margin_material" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignBottom="@+id/consultImage">
+        <im.threads.ui.widget.CustomFontTextView android:textSize="@dimen/ecc_text_medium" android:textColor="@color/ecc_chat_toolbar_text" android:id="@+id/consultTitle" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <im.threads.ui.widget.CustomFontTextView android:textSize="@dimen/ecc_text_regular" android:textColor="@color/ecc_chat_toolbar_text" android:id="@+id/consult_status" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

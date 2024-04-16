@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/failed_to_load_pizzerias_container" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/footer" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/header">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/failed_to_load_pizzerias"/>
+        <Button android:id="@+id/try_again_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/refresh_button_label" style="@style/PrimaryButton"/>
+    </LinearLayout>
+    <ru.dodopizza.app.presentation.selectpizzeria.PizzeriasMap android:id="@+id/pizzerias_map" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="start|top" android:id="@+id/exit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginStart="16dp" app:backgroundTint="@color/surfacePrimaryColor" app:elevation="1dp" app:fabCustomSize="48dp" app:srcCompat="@drawable/ic_arrow_start" app:tint="@color/textIconPrimaryColor"/>
+    </ru.dodopizza.app.presentation.selectpizzeria.PizzeriasMap>
+    <include android:id="@+id/bottom_sheet_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="40dp" layout="@layout/select_pizzeria_bottom_sheet"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

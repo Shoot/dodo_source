@@ -1,0 +1,23 @@
+[
+  {
+    "id": "00000001-0000-0000-0000-000000000000",
+    "uuId": "AAAAD477FF73975611EDE042F52EAC2C",
+    "name": "İzmir",
+    "order": 1,
+    "isTop": true
+  },
+  {
+    "id": "00000002-0000-0000-0000-000000000000",
+    "uuId": "5A8A97A2BE6BA0D211EE167F0C9AB4DE",
+    "name": "Antalya",
+    "order": 2,
+    "isTop": false
+  },
+  {
+    "id": "00000003-0000-0000-0000-000000000000",
+    "uuId": "5A8A97A2BE6BA0D311EE167F1EBBC95D",
+    "name": "Mersin",
+    "order": 3,
+    "isTop": false
+  }
+]

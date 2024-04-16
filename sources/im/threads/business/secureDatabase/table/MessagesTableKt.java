@@ -1,0 +1,35 @@
+package im.threads.business.secureDatabase.table;
+
+import kotlin.Metadata;
+/* compiled from: MessagesTable.kt */
+@Metadata(d1 = {"\u0000\n\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u001b\"\u000e\u0010\u0000\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0002\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0003\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0004\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0005\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0006\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0007\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\b\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\t\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\n\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u000b\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\f\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\r\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u000e\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u000f\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0010\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0011\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0012\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0013\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0014\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0015\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0016\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0017\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0018\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u0019\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u001a\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000\"\u000e\u0010\u001b\u001a\u00020\u0001X\u0082T¢\u0006\u0002\n\u0000¨\u0006\u001c"}, d2 = {MessagesTableKt.COLUMN_AVATAR_PATH, "", MessagesTableKt.COLUMN_BLOCK_INPUT, MessagesTableKt.COLUMN_CONNECTION_TYPE, MessagesTableKt.COLUMN_CONSULT_ID, MessagesTableKt.COLUMN_CONSULT_ORG_UNIT, MessagesTableKt.COLUMN_CONSULT_ROLE, MessagesTableKt.COLUMN_CONSULT_STATUS, MessagesTableKt.COLUMN_CONSULT_TITLE, MessagesTableKt.COLUMN_DISPLAY_MESSAGE, MessagesTableKt.COLUMN_FORMATTED_PHRASE, MessagesTableKt.COLUMN_IS_PERSONAL_OFFER, MessagesTableKt.COLUMN_IS_READ, MessagesTableKt.COLUMN_MESSAGE_CORRELATION_ID, MessagesTableKt.COLUMN_MESSAGE_ID, MessagesTableKt.COLUMN_MESSAGE_SEND_STATE, MessagesTableKt.COLUMN_MESSAGE_TYPE, MessagesTableKt.COLUMN_MODIFICATION_STATE, MessagesTableKt.COLUMN_NAME, MessagesTableKt.COLUMN_PHRASE, MessagesTableKt.COLUMN_SEX, MessagesTableKt.COLUMN_SPEECH_STATUS, MessagesTableKt.COLUMN_SURVEY_HIDE_AFTER, MessagesTableKt.COLUMN_SURVEY_SENDING_ID, "COLUMN_TABLE_ID", MessagesTableKt.COLUMN_THREAD_ID, MessagesTableKt.COLUMN_TIMESTAMP, MessagesTableKt.TABLE_MESSAGES, "threads_release"}, k = 2, mv = {1, 8, 0}, xi = 48)
+/* loaded from: classes3.dex */
+public final class MessagesTableKt {
+    private static final String COLUMN_AVATAR_PATH = "COLUMN_AVATAR_PATH";
+    private static final String COLUMN_BLOCK_INPUT = "COLUMN_BLOCK_INPUT";
+    private static final String COLUMN_CONNECTION_TYPE = "COLUMN_CONNECTION_TYPE";
+    private static final String COLUMN_CONSULT_ID = "COLUMN_CONSULT_ID";
+    private static final String COLUMN_CONSULT_ORG_UNIT = "COLUMN_CONSULT_ORG_UNIT";
+    private static final String COLUMN_CONSULT_ROLE = "COLUMN_CONSULT_ROLE";
+    private static final String COLUMN_CONSULT_STATUS = "COLUMN_CONSULT_STATUS";
+    private static final String COLUMN_CONSULT_TITLE = "COLUMN_CONSULT_TITLE";
+    private static final String COLUMN_DISPLAY_MESSAGE = "COLUMN_DISPLAY_MESSAGE";
+    private static final String COLUMN_FORMATTED_PHRASE = "COLUMN_FORMATTED_PHRASE";
+    private static final String COLUMN_IS_PERSONAL_OFFER = "COLUMN_IS_PERSONAL_OFFER";
+    private static final String COLUMN_IS_READ = "COLUMN_IS_READ";
+    private static final String COLUMN_MESSAGE_CORRELATION_ID = "COLUMN_MESSAGE_CORRELATION_ID";
+    private static final String COLUMN_MESSAGE_ID = "COLUMN_MESSAGE_ID";
+    private static final String COLUMN_MESSAGE_SEND_STATE = "COLUMN_MESSAGE_SEND_STATE";
+    private static final String COLUMN_MESSAGE_TYPE = "COLUMN_MESSAGE_TYPE";
+    private static final String COLUMN_MODIFICATION_STATE = "COLUMN_MODIFICATION_STATE";
+    private static final String COLUMN_NAME = "COLUMN_NAME";
+    private static final String COLUMN_PHRASE = "COLUMN_PHRASE";
+    private static final String COLUMN_SEX = "COLUMN_SEX";
+    private static final String COLUMN_SPEECH_STATUS = "COLUMN_SPEECH_STATUS";
+    private static final String COLUMN_SURVEY_HIDE_AFTER = "COLUMN_SURVEY_HIDE_AFTER";
+    private static final String COLUMN_SURVEY_SENDING_ID = "COLUMN_SURVEY_SENDING_ID";
+    private static final String COLUMN_TABLE_ID = "TABLE_ID";
+    private static final String COLUMN_THREAD_ID = "COLUMN_THREAD_ID";
+    private static final String COLUMN_TIMESTAMP = "COLUMN_TIMESTAMP";
+    private static final String TABLE_MESSAGES = "TABLE_MESSAGES";
+}

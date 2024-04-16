@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="16dp">
+    <androidx.core.widget.NestedScrollView android:id="@+id/items_container" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/container_constraint_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/remove_ingredients_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+                <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:textSize="18sp" android:id="@+id/remove_ingredients_title" android:paddingTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/combo_customize_can_remove"/>
+                <com.google.android.material.chip.ChipGroup android:id="@+id/ingredients_chip_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_centerHorizontal="true"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/add_toppings_container" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/remove_ingredients_container">
+                <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:textSize="18sp" android:id="@+id/add_ingredients_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/add_toppings_label"/>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/products_to_add_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@+id/discard_receipt_button" android:background="@drawable/white_circle" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginEnd="12dp" android:backgroundTint="@color/surfaceSecondaryColor" app:srcCompat="@drawable/ic_cross" app:tint="@color/textIconSecondaryColor"/>
+        <Button android:id="@+id/save_receipt_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save" style="@style/PrimaryButton"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,28 @@
+<configuration>
+    <turboFilter class="ru.dodopizza.app.infrastracture.logs.filter.StackTraceFillFilter"/>
+
+    <appender name="crashlytics"
+        class="ru.dodopizza.app.infrastracture.logs.CrashlyticsLogbackAppender">
+        <encoder>
+            <pattern>%class.%method\(%file:%line\) - %msg</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="kusto" class="com.dodopizza.logback.kusto.KustoLogbackAppender">
+        <tagEncoder>
+            <pattern>%logger{12}</pattern>
+        </tagEncoder>
+        <encoder>
+            <pattern>[%-20thread] %msg</pattern>
+        </encoder>
+    </appender>
+
+    <!-- There MUST be only ONE root tag -->
+    <!-- https://logback.qos.ch/manual/configuration.html#syntax -->
+    <root level="INFO">
+        <appender-ref ref="kusto" />
+        <appender-ref ref="crashlytics" />
+    </root>
+
+</configuration>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/bottom_sheet_address" android:background="@color/backgroundPrimaryColor" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:behavior_hideable="false" app:behavior_peekHeight="0dp" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" app:layout_insetEdge="bottom">
+    <androidx.core.widget.NestedScrollView android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:overScrollMode="never">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/address_map_edit_text_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/address_map_component_item"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/address_catcher_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginHorizontal="16dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/address_map_edit_text_layout">
+                <FrameLayout android:id="@+id/address_catcher_title_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                    <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:id="@+id/address_catcher_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/address_catcher_headline"/>
+                    <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:id="@+id/address_catcher_title_subscribe" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/address_update_subscription_success_headline"/>
+                </FrameLayout>
+                <FrameLayout android:id="@+id/address_catcher_message_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                    <TextView android:textAppearance="?attr/textAppearanceTextL" android:id="@+id/address_catcher_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/address_catcher_message"/>
+                    <TextView android:textAppearance="?attr/textAppearanceTextL" android:id="@+id/address_catcher_message_subscribe" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/address_update_subscription_success_message"/>
+                </FrameLayout>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/delivery_address_map_components_recycler_view" android:paddingBottom="12dp" android:focusableInTouchMode="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:paddingStart="8dp" android:paddingEnd="16dp" android:nestedScrollingEnabled="true" app:layout_constraintTop_toBottomOf="@+id/address_map_edit_text_layout"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/address_button_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <com.dodopizza.android.buttons.DodoButton android:id="@+id/delete_address_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:text="@string/delete" android:layout_weight="1" android:layout_marginHorizontal="16dp" style="@style/SecondaryButton"/>
+        <com.dodopizza.android.buttons.DodoButton android:id="@+id/save_address_button" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:text="@string/save" android:layout_weight="1" android:layout_marginHorizontal="16dp" style="@style/PrimaryButton"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/address_catcher_button_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_marginHorizontal="16dp">
+        <FrameLayout android:id="@+id/address_catcher_button_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.dodopizza.android.buttons.DodoButton android:id="@+id/notify_me_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/notify_me_on_the_opening" style="@style/PrimaryButton"/>
+            <com.dodopizza.android.buttons.DodoButton android:id="@+id/pickup_order_success_screen_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/order_with_pickup" style="@style/PrimaryButton"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/address_catcher_menu_button_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="16dp">
+            <com.dodopizza.android.buttons.DodoButton android:id="@+id/pickup_order_start_screen_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/show_pickup_menu" style="@style/SecondaryButton"/>
+            <com.dodopizza.android.buttons.DodoButton android:id="@+id/check_menu_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/check_the_menu" style="@style/SecondaryButton"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

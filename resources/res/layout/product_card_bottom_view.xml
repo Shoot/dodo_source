@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:id="@+id/bottom_shopping_bar_container" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="80dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_shopping_bar_cost_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="4dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/bottom_shopping_bar_add_to_cart_button" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:id="@+id/bottom_shopping_bar_discount_price_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4dp"/>
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH3" android:id="@+id/bottom_shopping_bar_full_price_value" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button android:id="@+id/bottom_shopping_bar_add_to_cart_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/bottom_shopping_bar_cost_container" app:layout_constraintTop_toTopOf="0" style="@style/PrimaryButton"/>
+</LinearLayout>

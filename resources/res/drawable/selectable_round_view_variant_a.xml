@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="100" android:exitFadeDuration="100">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/surfaceDodoSecondaryColor"/>
+                    <corners android:radius="20dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

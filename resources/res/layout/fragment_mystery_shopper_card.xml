@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/mystery_shopper_checkup_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/textIconPrimaryColor" android:id="@+id/mystery_shopper_checkup_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" style="?attr/mysteryShopperCardTitleStyle"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/mystery_shopper_checkup_body" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/mystery_shopper_checkup_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" style="@style/PrimaryButton"/>
+</LinearLayout>

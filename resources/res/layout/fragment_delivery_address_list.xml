@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="1dp"/>
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbar" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:navigationIcon="@drawable/ic_arrow_start" app:navigationIconTint="@color/textIconPrimaryColor" app:title="@string/delivery_addresses"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/empty_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_cashier_base"/>
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:gravity="center" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/profile_address_list_empty_screen_title"/>
+        <TextView android:textAppearance="?attr/textAppearanceTextL" android:gravity="center" android:id="@+id/empty_address_message" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/empty_delivery_addresses"/>
+        <Button android:id="@+id/add_new_address_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="24dp" android:layout_marginRight="40dp" android:text="@string/add_new_address" style="@style/PrimaryButton"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/addresses_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    <View android:background="@drawable/toolbar_dropshadow" android:layout_width="match_parent" android:layout_height="7dp" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/bottom_sheet_behavior_view" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_hideable="false" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <include android:id="@+id/pizzeria_list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/pizzeria_list_bottom_sheet_view"/>
+        <include android:id="@+id/pizzeria_card_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/pizzeria_card_bottom_sheet_view"/>
+    </FrameLayout>
+    <include android:layout_gravity="bottom" android:id="@+id/order_here_button_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/pizzeria_card_pinned_bottom_sheet_view"/>
+    <include android:layout_gravity="bottom" android:id="@+id/find_nearest_pizzerias_button_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/pizzeria_list_bottom_sheet_pinned_view"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

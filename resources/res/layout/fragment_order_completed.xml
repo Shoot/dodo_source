@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="wrap_content" app:liftOnScroll="true">
+        <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="start" android:id="@+id/close_button" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="24dp" android:layout_height="24dp" android:layout_margin="16dp" android:contentDescription="@null" app:srcCompat="@drawable/ic_cross" app:tint="@color/textIconPrimaryColor"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?attr/textAppearanceHeadingH0" android:id="@+id/header_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="12dp" android:text="@string/order_completed_title"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:background="@color/backgroundPrimaryColor" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:id="@+id/main_content_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:background="@color/strokeSecondaryColor" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+            <androidx.fragment.app.FragmentContainerView android:id="@+id/completed_order_info_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="32dp"/>
+            <com.google.android.material.card.MaterialCardView android:id="@+id/feedback_buttons_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" app:cardBackgroundColor="@color/surfacePrimaryColor" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:contentPadding="16dp">
+                <androidx.fragment.app.FragmentContainerView android:id="@+id/feedback_buttons_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@+id/mystery_shopper_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" app:cardBackgroundColor="@color/surfaceDodoSecondaryColor" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:contentPadding="16dp">
+                <androidx.fragment.app.FragmentContainerView android:id="@+id/mystery_shopper_checkup_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@+id/courier_tips_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" app:cardBackgroundColor="@color/surfacePrimaryColor" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:contentPadding="16dp">
+                <androidx.fragment.app.FragmentContainerView android:id="@+id/courier_tips_card_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@+id/rndigital_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" app:cardBackgroundColor="@color/surfacePrimaryColor" app:cardCornerRadius="8dp" app:cardElevation="8dp" app:contentPadding="0dp">
+                <androidx.fragment.app.FragmentContainerView android:id="@+id/rndigital_card_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

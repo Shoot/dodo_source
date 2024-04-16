@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/activity_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.viewpager.widget.ViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar"/>
+    <View android:id="@+id/toolbar_shadow" android:background="@drawable/ecc_toolbar_shadow" android:layout_width="match_parent" android:layout_height="63dp"/>
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/ecc_attachments_toolbar_background" android:layout_width="match_parent" android:layout_height="@dimen/ecc_toolbar_height" android:layout_alignParentTop="true" app:contentInsetStart="0dp" app:titleTextColor="@color/ecc_attachments_toolbar_text">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageButton android:id="@+id/back_button" android:background="?android:attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="16dp" android:paddingEnd="16dp" app:srcCompat="0x7f08010b"/>
+            <TextView android:textSize="@dimen/ecc_text_big" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+</RelativeLayout>

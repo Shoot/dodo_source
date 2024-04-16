@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/rootLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ecc_margin_half">
+        <ImageView android:id="@+id/consultAvatar" android:layout_width="@dimen/ecc_operator_photo_size" android:layout_height="@dimen/ecc_operator_photo_size" android:layout_alignParentBottom="true"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/loaderLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ecc_margin_big" android:layout_toEndOf="@+id/consultAvatar">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/loader" android:layout_width="@dimen/ecc_operator_photo_size" android:layout_height="@dimen/ecc_operator_photo_size" android:layout_marginTop="@dimen/ecc_margin_material" android:layout_marginBottom="@dimen/ecc_margin_material" android:layout_marginEnd="@dimen/ecc_margin_three_fourth"/>
+            <View android:id="@+id/delimiter" android:background="@color/ecc_incoming_message_text" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/ecc_margin_quarter" android:layout_marginBottom="@dimen/ecc_margin_quarter"/>
+            <im.threads.ui.widget.textView.BubbleMessageTextView android:textColor="@color/ecc_incoming_message_text" android:ellipsize="end" android:id="@+id/fileName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ecc_margin_half" android:layout_marginBottom="@dimen/ecc_margin_half" android:maxLines="5" android:layout_marginStart="@dimen/ecc_margin_half" android:layout_marginEnd="@dimen/ecc_margin_half"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/imageLayoutWithSpace" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:background="@color/ecc_transparent" android:layout_width="@dimen/ecc_operator_photo_size" android:layout_height="1dp"/>
+            <FrameLayout android:id="@+id/imageLayout" android:visibility="visible" android:layout_width="0x7f0700d3" android:layout_height="0x7f0700d3">
+                <FrameLayout android:id="@+id/imageBackground" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/loaderImage" android:padding="75dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+                <im.threads.ui.widget.textView.BubbleTimeTextView android:textColor="@color/ecc_incoming_message_time" android:layout_gravity="end|bottom" android:id="@+id/timeStamp" android:background="@drawable/ecc_timestamp_incoming_underlayer" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ecc_timeLabelMarginBottom" android:drawablePadding="@dimen/ecc_margin_half" android:layout_marginEnd="@dimen/ecc_timeLabelMarginRight"/>
+            </FrameLayout>
+        </LinearLayout>
+        <im.threads.ui.widget.textView.BubbleTimeTextView android:textColor="@color/ecc_incoming_message_time" android:id="@+id/timeStampLoader" android:background="@drawable/ecc_timestamp_incoming_underlayer" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ecc_timeLabelMarginBottom" android:drawablePadding="@dimen/ecc_margin_half" android:layout_alignBottom="@+id/loaderLayout" android:layout_marginEnd="@dimen/ecc_timeLabelMarginRight" android:layout_alignEnd="@+id/loaderLayout"/>
+    </RelativeLayout>
+    <im.threads.ui.widget.textView.BubbleTimeTextView android:textSize="@dimen/ecc_error_text_size" android:id="@+id/errorText" android:visibility="gone" android:layout_marginStart="@dimen/ecc_consultant_margin_right" style="@style/timestamp"/>
+</LinearLayout>

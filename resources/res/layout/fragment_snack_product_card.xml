@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/backgroundPrimaryColor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:id="@+id/nested_scroll" android:paddingBottom="20dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/snack_card_bottom_shopping_bar" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="344dp" android:layout_marginTop="32dp">
+                <ImageView android:id="@+id/snack_card_item_image" android:layout_width="match_parent" android:layout_height="344dp"/>
+                <com.dodopizza.order.feature.personalprice.PersonalPriceBadgeView android:layout_gravity="start|bottom" android:id="@+id/snack_discount_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="14dp"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                <TextView android:textAppearance="?attr/textAppearanceHeadingH1" android:id="@+id/snack_card_title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="8dp"/>
+                <com.dodopizza.order.feature.product.card.presentation.view.ExpandableFoodValueInfoIconView android:id="@+id/snack_card_info_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" app:tint="@color/textIconSecondaryColor"/>
+            </LinearLayout>
+            <TextView android:textAppearance="?attr/textAppearanceTextS" android:textColor="@color/textIconSecondaryColor" android:id="@+id/snack_card_size_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="16dp"/>
+            <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconSecondaryColor" android:id="@+id/snack_card_composition_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.dodopizza.order.feature.product.card.presentation.shoppingitem.ProductCardBottomView android:id="@+id/snack_card_bottom_shopping_bar" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <View android:id="@+id/drop_shadow" android:background="@drawable/footer_dropshadow" android:layout_width="match_parent" android:layout_height="8dp" app:layout_constraintBottom_toTopOf="@+id/snack_card_bottom_shopping_bar" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <com.dodopizza.order.feature.product.card.presentation.shoppingitem.ShoppingItemNavigationBar android:id="@+id/snack_card_item_navigation_bar" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

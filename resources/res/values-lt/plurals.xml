@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d adresas</item>
+        <item quantity="few">%1$d adresų</item>
+        <item quantity="many">%1$d adresų</item>
+        <item quantity="other">%1$d adresų</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d diena</item>
+        <item quantity="few">%1$d dienos</item>
+        <item quantity="many">%1$d dienų</item>
+        <item quantity="other">%1$d dienos</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">%1$s minutė</item>
+        <item quantity="few">%1$s minutės</item>
+        <item quantity="many">%1$s minutės</item>
+        <item quantity="other">%1$s minučių</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d prekė</item>
+        <item quantity="few">%1$d prekės</item>
+        <item quantity="many">%1$d prekių</item>
+        <item quantity="other">%1$d prekių</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d prekė už %2$s</item>
+        <item quantity="few">%1$d prekės už %2$s</item>
+        <item quantity="many">%1$d prekių už %2$s</item>
+        <item quantity="other">%1$d prekių už %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">produktas už dodokoinus krepšelyje</item>
+        <item quantity="few">produktai už dodokoinus krepšelyje</item>
+        <item quantity="many">produktų už dodokoinus krepšelyje</item>
+        <item quantity="other">produktų už dodokoinus krepšelyje</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Premija už %1$s dodokoiną</item>
+        <item quantity="few">Premija už %1$s dodokoinus</item>
+        <item quantity="many">Premija už %1$s dodokoinų</item>
+        <item quantity="other">Premija už %1$s dodokoinų</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">Už %1$s dodokoiną</item>
+        <item quantity="few">Už %1$s dodokoinus</item>
+        <item quantity="many">Už %1$s dodokoinų</item>
+        <item quantity="other">Už %1$s dodokoinų</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">Už %1$s dodokoiną ir %2$s</item>
+        <item quantity="few">Už %1$s dodokoinus ir %2$s</item>
+        <item quantity="many">Už %1$s dodokoinų ir %2$s</item>
+        <item quantity="other">Už %1$s dodokoinų ir %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Nepakanka %1$s dodokoino</item>
+        <item quantity="few">Nepakanka %1$s dodokoinų</item>
+        <item quantity="many">Nepakanka %1$s dodokoinų</item>
+        <item quantity="other">Nepakanka įsigyti %1$s dodokoinų</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d užsakymas</item>
+        <item quantity="few">%1$d užsakymų</item>
+        <item quantity="many">%1$d užsakymų</item>
+        <item quantity="other">%1$d užsakymų</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero">Dodocoinai - vidinė Dodo valiuta. Juos galima išleisti skiltyje „Profilis“. Dodokoinus įskaitome už visus užsakymus. Po %1$s dienų gauti dodokoinai sudega.</item>
+        <item quantity="one">Dodocoinai - vidinė Dodo valiuta. Juos galima išleisti skiltyje „Profilis“. Dodokoinus įskaitome už visus užsakymus. Po %1$s dienos gauti dodokoinai sudega.</item>
+        <item quantity="few">Dodocoinai - vidinė Dodo valiuta. Juos galima išleisti skiltyje „Profilis“. Dodokoinus įskaitome už visus užsakymus. Po %1$s dienų gauti dodokoinai sudega.</item>
+        <item quantity="many">Dodocoinai - vidinė Dodo valiuta. Juos galima išleisti skiltyje „Profilis“. Dodokoinus įskaitome už visus užsakymus. Po %1$s dienų gauti dodokoinai sudega.</item>
+        <item quantity="other">Dodocoinai - vidinė Dodo valiuta. Juos galima išleisti skiltyje „Profilis“. Dodokoinus įskaitome už visus užsakymus. Po %1$s dienų gauti dodokoinai sudega.</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d padažas</item>
+        <item quantity="few">%1$d padažai</item>
+        <item quantity="many">%1$d padažų</item>
+        <item quantity="other">%1$d padažų</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero">iki %1$d dienų</item>
+        <item quantity="one">iki %1$d dienos</item>
+        <item quantity="few">iki %1$d dienų</item>
+        <item quantity="many">iki %1$d dienų</item>
+        <item quantity="other">iki %1$d dienų</item>
+    </plurals>
+</resources>

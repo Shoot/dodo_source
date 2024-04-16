@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:background="0x7f0800b1" android:padding="14dp" android:layout_width="@dimen/ecc_default_chat_row_height" android:layout_height="@dimen/ecc_default_chat_row_height" android:layout_marginLeft="@dimen/ecc_margin_material" android:indeterminate="true" android:indeterminateDrawable="@drawable/ecc_circle_with_circle"/>
+</FrameLayout>

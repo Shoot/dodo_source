@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>key
+        </key>
+        <value>value
+        </value>
+    </entry>
+    <entry>
+        <key>combo_tutorial_enabled
+        </key>
+        <value>true
+        </value>
+    </entry>
+    <entry>
+        <key>hide_promocode_on_menu
+        </key>
+        <value>false
+        </value>
+    </entry>
+    <entry>
+        <key>white_color_theme
+        </key>
+        <value>false
+        </value>
+    </entry>
+    <entry>
+        <key>new_checkout
+        </key>
+        <value>false
+        </value>
+    </entry>
+    <entry>
+        <key>service_pushes_enabled
+        </key>
+        <value>false
+        </value>
+    </entry>
+</defaultsMap>

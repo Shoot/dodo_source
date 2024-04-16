@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d day</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s minute</item>
+        <item quantity="other">~%1$s minutes</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d of item at the price of %2$s</item>
+        <item quantity="other">%1$d of items at the price of %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">product for dodocoins in the cart</item>
+        <item quantity="other">products for dodocoins in the cart</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Bonus for %1$s dodocoin</item>
+        <item quantity="other">Bonus for %1$s dodocoins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">For %1$s coin</item>
+        <item quantity="other">For %1$s coins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">For %1$s coin and %2$s</item>
+        <item quantity="other">For %1$s coins and %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">You are %1$s coin short for a purchase</item>
+        <item quantity="other">You are %1$s coins short for a purchase</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d sauce</item>
+        <item quantity="other">%1$d sauces</item>
+    </plurals>
+</resources>

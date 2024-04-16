@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textAppearance="?attr/textAppearanceHeadingH3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minEms="5" android:textAlignment="center" app:chipEndPadding="16dp" app:chipMinHeight="48dp" app:chipStartPadding="16dp" style="?attr/courierTipsCardItemStyle"/>

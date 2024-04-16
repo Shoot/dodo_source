@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ecc_swipe_refresh_colors">
+        <item>@color/surfaceDodoColor</item>
+    </array>
+</resources>

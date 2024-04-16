@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.chip.Chip android:id="@+id/binary_feedback_negative_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/binary_feedback_negative" android:layout_weight="1" style="@style/BinaryFeedbackChip"/>
+    <Space android:id="@+id/binary_feedback_buttons_spacing" android:layout_width="0dp" android:layout_height="match_parent"/>
+    <com.google.android.material.chip.Chip android:id="@+id/binary_feedback_positive_button" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/binary_feedback_positive" android:layout_weight="1" style="@style/BinaryFeedbackChip"/>
+</merge>

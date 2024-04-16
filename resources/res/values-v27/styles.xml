@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SplashScreen" parent="@style/Base.v27.Theme.SplashScreen">
+    </style>
+    <style name="Base.Theme.SplashScreen.Light" parent="@style/Base.v27.Theme.SplashScreen.Light">
+    </style>
+    <style name="Base.v27.Theme.SplashScreen" parent="@style/Base.v21.Theme.SplashScreen">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="Base.v27.Theme.SplashScreen.Light" parent="@style/Base.v21.Theme.SplashScreen.Light">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="DodopizzaTheme.BottomSheetStyle" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/backgroundPrimaryColor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="bottomSheetStyle">@style/DodopizzaTheme.ModalStyle</item>
+        <item name="colorAccent">@color/surfaceDodoColor</item>
+        <item name="colorButtonNormal">@color/surfaceDodoColor</item>
+        <item name="colorPrimary">@color/surfaceDodoColor</item>
+        <item name="colorPrimaryDark">@color/surfaceDodoColor</item>
+    </style>
+</resources>

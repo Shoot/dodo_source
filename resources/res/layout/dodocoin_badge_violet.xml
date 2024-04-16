@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/dodo_badge_background" android:background="@drawable/dodocoins_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="52dp" android:elevation="0dp">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="24dp" android:layout_margin="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/dodo_badge_icon" android:layout_width="20dp" android:layout_height="20dp" app:srcCompat="@drawable/dodocoin"/>
+        <TextView android:textAppearance="?attr/textAppearanceButtonM" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/dodo_badge_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120dp" android:maxLines="1" android:layout_marginStart="4dp" android:layout_marginEnd="4dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

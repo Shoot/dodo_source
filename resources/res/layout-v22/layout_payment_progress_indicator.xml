@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/DodopizzaTheme" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="?attr/textAppearanceHeadingH2" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/payment_progress_indicator_title"/>
+    <TextSwitcher android:id="@+id/description_switcher" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:inAnimation="@anim/payment_progress_indicator_description_in" android:outAnimation="@anim/payment_progress_indicator_description_out">
+        <TextView android:textAppearance="?attr/textAppearanceTextL" android:gravity="center" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="10dp"/>
+        <TextView android:textAppearance="?attr/textAppearanceTextL" android:gravity="center" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="10dp"/>
+    </TextSwitcher>
+</merge>

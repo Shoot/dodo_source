@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d адрес</item>
+        <item quantity="other">%1$d адреса</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_dodocoins_subtitle">
+        <item quantity="one">след %1$s ден</item>
+        <item quantity="other">след %1$s ден</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_flash_dodocoins_description_v3">
+        <item quantity="one">Обикновено те са валидни за не повече от %1$s ден. Точната продължителност можете да намерите в условията на офертата</item>
+        <item quantity="other">Обикновено те са валидни за не повече от %1$s ден. Точната продължителност можете да намерите в условията на офертата</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d ден</item>
+        <item quantity="other">%1$d дни</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s минута</item>
+        <item quantity="other">~%1$s минути</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d стока</item>
+        <item quantity="other">%1$d стоки</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d стока на %2$s</item>
+        <item quantity="other">%1$d стоки на %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">продукт за додокоини в кошница</item>
+        <item quantity="other">продукти за додокоини в кошница</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Бонус за %1$s додокоин</item>
+        <item quantity="other">Бонус за %1$s додокоини</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">За %1$s коин</item>
+        <item quantity="other">За %1$s коини</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">За %1$s коин и %2$s</item>
+        <item quantity="other">За %1$s коини и %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Не стига %1$s коин</item>
+        <item quantity="other">Не стигат %1$s коини</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново известие</item>
+        <item quantity="other">%d нови известия</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d поръчка</item>
+        <item quantity="other">%1$d поръчки</item>
+    </plurals>
+    <plurals name="profile_settings_account_deletion_status_in_days_title">
+        <item quantity="one">Профилът ще бъде изтрит след %1$s ден</item>
+        <item quantity="other">Профилът ще бъде изтрит след %1$s ден</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="one" />
+        <item quantity="other" />
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="one">Поканихте %1$s приятел, остават още %2$s</item>
+        <item quantity="other">Поканихте %1$s приятел, остават още %2$s</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_without_limit">
+        <item quantity="one">Поканихте %1$s приятел</item>
+        <item quantity="other">Поканихте %1$s приятел</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d сос</item>
+        <item quantity="other">%1$d соса</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="one">до %1$d ден</item>
+        <item quantity="other" />
+    </plurals>
+</resources>

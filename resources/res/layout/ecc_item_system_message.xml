@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/ecc_system_message_text_size" android:textColor="@color/ecc_chat_new_system_message" android:gravity="center_vertical" android:id="@+id/tv_system_message" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="52dp" android:paddingStart="@dimen/ecc_system_message_left_right_padding" android:paddingEnd="@dimen/ecc_system_message_left_right_padding"/>

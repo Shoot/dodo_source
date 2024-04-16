@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:paddingTop="8dp" android:paddingBottom="8dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp" android:paddingStart="16dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/icons_container" android:layout_alignParentStart="true">
+        <TextView android:textAppearance="?attr/textAppearanceTextL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checkout_email_for_checks"/>
+        <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconSecondaryColor" android:id="@+id/email_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checkout_new_card_payment_method"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/icons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/arrow_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:srcCompat="@drawable/ic_arrow_end" app:tint="@color/textIconTertiaryColor"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp"/>
+    </FrameLayout>
+</RelativeLayout>

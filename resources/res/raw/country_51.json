@@ -1,0 +1,16 @@
+[
+  {
+    "id": "00000001-0000-0000-0000-000000000000",
+    "uuId": "5A2667423E2AA0DD11ED9D89CC61BDB3",
+    "name": "Yerevan",
+    "order": 1,
+    "isTop": true
+  },
+  {
+    "id": "00000002-0000-0000-0000-000000000000",
+    "uuId": "E2DE7D94B4ABA23611EED1AAE58D6CE9",
+    "name": "Gyumri",
+    "order": 2,
+    "isTop": false
+  }
+]

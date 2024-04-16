@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/legal_documents_link_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="?attr/textAppearanceTextL" android:id="@+id/legal_documents_link_text" android:background="?attr/selectableItemBackground" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp" android:paddingVertical="16dp" app:drawableEndCompat="@drawable/ic_arrow_end_grey" app:drawableTint="@color/textIconSecondaryColor" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:background="@color/strokeSecondaryColor" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="16dp"/>
+</LinearLayout>

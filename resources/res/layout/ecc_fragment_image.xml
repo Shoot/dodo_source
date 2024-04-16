@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/ecc_attachments_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/ecc_image"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/loader" android:visibility="gone" android:layout_width="@dimen/ecc_operator_photo_size" android:layout_height="@dimen/ecc_operator_photo_size" android:contentDescription="@string/ecc_loading"/>
+    <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/ecc_image"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <im.threads.ui.widget.CustomFontTextView android:textSize="@dimen/ecc_attachments_author_text_size" android:textColor="@color/ecc_attachments_author_text_color" android:gravity="start|center_vertical" android:id="@+id/from" android:paddingTop="@dimen/ecc_margin_quarter" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ecc_margin_material"/>
+        <im.threads.ui.widget.CustomFontTextView android:textSize="@dimen/ecc_attachments_date_text_size" android:textColor="@color/ecc_attachments_date_text_color" android:gravity="start|center_vertical" android:id="@+id/date" android:paddingBottom="@dimen/ecc_margin_quarter" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ecc_margin_material"/>
+    </LinearLayout>
+</FrameLayout>

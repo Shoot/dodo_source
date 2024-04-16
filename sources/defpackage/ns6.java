@@ -1,0 +1,91 @@
+package defpackage;
+
+import org.bouncycastle.asn1.k;
+/* renamed from: ns6  reason: default package */
+/* loaded from: classes3.dex */
+public interface ns6 {
+    public static final k A;
+    public static final k B;
+    public static final k C;
+    public static final k D;
+    public static final k E;
+    public static final k F;
+    public static final k G;
+    public static final k H;
+    public static final k I;
+    public static final k J;
+    public static final k K;
+    public static final k L;
+    public static final k M;
+    public static final k a;
+    public static final k b;
+    public static final k c;
+    public static final k d;
+    public static final k e;
+    public static final k f;
+    public static final k g;
+    public static final k h;
+    public static final k i;
+    public static final k j;
+    public static final k k;
+    public static final k l;
+    public static final k m;
+    public static final k n;
+    public static final k o;
+    public static final k p;
+    public static final k q;
+    public static final k r;
+    public static final k s;
+    public static final k t;
+    public static final k u;
+    public static final k v;
+    public static final k w;
+    public static final k x;
+    public static final k y;
+    public static final k z;
+
+    static {
+        k kVar = new k("1.2.410.200046");
+        a = kVar;
+        k D2 = kVar.D("1");
+        b = D2;
+        k D3 = D2.D("1");
+        c = D3;
+        d = D2.D("2");
+        e = D2.D("0");
+        f = D2.D("1");
+        g = D3.D("1");
+        h = D3.D("2");
+        i = D3.D("3");
+        j = D3.D("4");
+        k = D3.D("5");
+        l = D3.D("6");
+        m = D3.D("7");
+        n = D3.D("8");
+        o = D3.D("9");
+        p = D3.D("10");
+        q = D3.D("11");
+        r = D3.D("12");
+        s = D3.D("13");
+        t = D3.D("14");
+        u = D3.D("15");
+        v = D3.D("21");
+        w = D3.D("22");
+        x = D3.D("23");
+        y = D3.D("31");
+        z = D3.D("32");
+        A = D3.D("33");
+        B = D3.D("34");
+        C = D3.D("35");
+        D = D3.D("36");
+        E = D3.D("37");
+        F = D3.D("38");
+        G = D3.D("39");
+        H = D3.D("40");
+        I = D3.D("41");
+        J = D3.D("42");
+        K = D3.D("43");
+        L = D3.D("44");
+        M = D3.D("45");
+    }
+}

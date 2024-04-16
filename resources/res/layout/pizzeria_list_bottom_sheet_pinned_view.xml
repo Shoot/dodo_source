@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/backgroundPrimaryColor" android:padding="16dp" android:layout_width="match_parent" android:layout_height="80dp">
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:id="@+id/find_nearest_pizzerias_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/find_nearest_pizzeias" app:icon="@drawable/ic_geo_small" app:iconGravity="textStart" app:iconTint="@color/textIconAccentColor" style="@style/SecondaryButton"/>
+</FrameLayout>

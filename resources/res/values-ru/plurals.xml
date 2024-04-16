@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d адрес</item>
+        <item quantity="few">%1$d адреса</item>
+        <item quantity="many">%1$d адресов</item>
+        <item quantity="other">%1$d адресов</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_dodocoins_subtitle">
+        <item quantity="one">через %1$s день</item>
+        <item quantity="few">через %1$s дня</item>
+        <item quantity="many">через %1$s дней</item>
+        <item quantity="other">через %1$s дней</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_flash_dodocoins_description_v3">
+        <item quantity="one">Но обычно действуют не более %1$s дня. Точный срок можно узнать в условиях акции или миссии</item>
+        <item quantity="few">Но обычно действуют не более %1$s дней. Точный срок можно узнать в условиях акции или миссии</item>
+        <item quantity="many">Но обычно действуют не более %1$s дней. Точный срок можно узнать в условиях акции или миссии</item>
+        <item quantity="other">Но обычно действуют не более %1$s дней. Точный срок можно узнать в условиях акции или миссии</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дней</item>
+    </plurals>
+    <plurals name="ecc_files">
+        <item quantity="one">%d файл</item>
+        <item quantity="few">%d файла</item>
+        <item quantity="many">%d файлов</item>
+        <item quantity="other">%d файлов</item>
+    </plurals>
+    <plurals name="ecc_images">
+        <item quantity="one">%d изображение</item>
+        <item quantity="few">%d изображения</item>
+        <item quantity="many">%d изображений</item>
+        <item quantity="other">%d изображений</item>
+    </plurals>
+    <plurals name="ecc_new_messages">
+        <item quantity="one">%d новое сообщение</item>
+        <item quantity="few">%d новых сообщения</item>
+        <item quantity="many">%d новых сообщений</item>
+        <item quantity="other">%d новых сообщений</item>
+    </plurals>
+    <plurals name="ecc_unread_messages">
+        <item quantity="one">%d непрочитанное сообщение</item>
+        <item quantity="few">%d непрочитанных сообщения</item>
+        <item quantity="many">%d непрочитанных сообщений</item>
+        <item quantity="other">%d непрочитанных сообщений</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s минута</item>
+        <item quantity="few">~%1$s минуты</item>
+        <item quantity="many">~%1$s минут</item>
+        <item quantity="other">~%1$s минут</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d товар</item>
+        <item quantity="few">%1$d товара</item>
+        <item quantity="many">%1$d товаров</item>
+        <item quantity="other">%1$d товаров</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d товар на %2$s</item>
+        <item quantity="few">%1$d товара на %2$s</item>
+        <item quantity="many">%1$d товаров на %2$s</item>
+        <item quantity="other">%1$d товаров на %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">продукт за додокоины в корзине</item>
+        <item quantity="few">продукта за додокоины в корзине</item>
+        <item quantity="many">продуктов за додокоины в корзине</item>
+        <item quantity="other">продуктов за додокоины в корзине</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Бонус за %1$s додокоин</item>
+        <item quantity="few">Бонус за %1$s додокоина</item>
+        <item quantity="many">Бонус за %1$s додокоинов</item>
+        <item quantity="other">Бонус за %1$s додокоинов</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">За %1$s коин</item>
+        <item quantity="few">За %1$s коина</item>
+        <item quantity="many">За %1$s коинов</item>
+        <item quantity="other">За %1$s коинов</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">За %1$s коин и %2$s</item>
+        <item quantity="few">За %1$s коина и %2$s</item>
+        <item quantity="many">За %1$s коинов и %2$s</item>
+        <item quantity="other">За %1$s коинов и %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Не хватает %1$s коина</item>
+        <item quantity="few">Не хватает %1$s коина</item>
+        <item quantity="many">Не хватает %1$s коинов</item>
+        <item quantity="other">Не хватает %1$s коинов</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d заказ</item>
+        <item quantity="few">%1$d заказа</item>
+        <item quantity="many">%1$d заказов</item>
+        <item quantity="other">%1$d заказовй</item>
+    </plurals>
+    <plurals name="profile_settings_account_deletion_status_in_days_title">
+        <item quantity="one">Профиль удалится через %1$s день</item>
+        <item quantity="few">Профиль удалится через %1$s дня</item>
+        <item quantity="many">Профиль удалится через %1$s дней</item>
+        <item quantity="other">Профиль удалится через %1$s дней</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero" />
+        <item quantity="one">Додокоины — это внутренняя валюта Додо. Их можно тратить в разделе «Профиль». Мы начисляем додокоины за все заказы. Через %1$s день полученные додокоины сгорают.</item>
+        <item quantity="two" />
+        <item quantity="few">Додокоины — это внутренняя валюта Додо. Их можно тратить в разделе «Профиль». Мы начисляем додокоины за все заказы. Через %1$s дня полученные додокоины сгорают.</item>
+        <item quantity="many">Додокоины — это внутренняя валюта Додо. Их можно тратить в разделе «Профиль». Мы начисляем додокоины за все заказы. Через %1$s дней полученные додокоины сгорают.</item>
+        <item quantity="other">Додокоины — это внутренняя валюта Додо. Их можно тратить в разделе «Профиль». Мы начисляем додокоины за все заказы. Через %1$s дней полученные додокоины сгорают.</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="one">Вы пригласили %1$s друга, осталось ещё %2$s</item>
+        <item quantity="few">Вы пригласили %1$s друга, осталось ещё %2$s</item>
+        <item quantity="many">Вы пригласили %1$s друзей, осталось ещё %2$s</item>
+        <item quantity="other">Вы пригласили %1$s друзей, осталось ещё %2$s</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_without_limit">
+        <item quantity="one">Вы пригласили %1$s друга</item>
+        <item quantity="few">Вы пригласили %1$s друга</item>
+        <item quantity="many">Вы пригласили %1$s друзей</item>
+        <item quantity="other">Вы пригласили %1$s друзей</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d соус</item>
+        <item quantity="few">%1$d соуса</item>
+        <item quantity="many">%1$d соусов</item>
+        <item quantity="other">%1$d соусов</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="one">до %1$d дня</item>
+        <item quantity="few">до %1$d дня</item>
+        <item quantity="many">до %1$d дней</item>
+        <item quantity="other">до %1$d дней</item>
+    </plurals>
+</resources>

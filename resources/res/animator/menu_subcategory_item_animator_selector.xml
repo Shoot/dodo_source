@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <set android:ordering="together">
+            <objectAnimator android:duration="200" android:valueTo="2dp" android:valueType="intType" android:propertyName="strokeWidth"/>
+            <objectAnimator android:duration="200" android:valueTo="@color/strokeTertiaryColor" android:valueType="colorType" android:propertyName="strokeColor"/>
+        </set>
+    </item>
+    <item android:state_checked="true">
+        <set android:ordering="together">
+            <objectAnimator android:duration="200" android:valueTo="2dp" android:valueType="intType" android:propertyName="strokeWidth"/>
+            <objectAnimator android:duration="200" android:valueTo="@color/strokeDodoColor" android:valueType="colorType" android:propertyName="strokeColor"/>
+        </set>
+    </item>
+    <item>
+        <set android:ordering="together">
+            <objectAnimator android:duration="200" android:valueTo="1dp" android:valueType="intType" android:propertyName="strokeWidth"/>
+            <objectAnimator android:duration="200" android:valueTo="@color/strokeSecondaryColor" android:valueType="colorType" android:propertyName="strokeColor"/>
+        </set>
+    </item>
+</selector>

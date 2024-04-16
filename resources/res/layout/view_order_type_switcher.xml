@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dodopizza.android.view.custom.SegmentedControl xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RadioButton android:textColor="@color/textIconPrimaryColor" android:ellipsize="end" android:id="@+id/switch_delivery" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:minHeight="32dp" android:text="@string/delivery" android:maxLines="1"/>
+    <RadioButton android:textColor="@color/textIconPrimaryColor" android:ellipsize="end" android:id="@+id/switch_restaurant" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="32dp" android:text="@string/pizzeria_order_type_label" android:maxLines="1"/>
+</com.dodopizza.android.view.custom.SegmentedControl>

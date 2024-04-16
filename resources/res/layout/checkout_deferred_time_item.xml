@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/card_view" android:layout_width="wrap_content" android:layout_height="52dp" android:layout_marginBottom="8dp" android:checkable="true" android:stateListAnimator="@animator/deferred_time_item_animator_selector" app:cardForegroundColor="@color/transparent" app:checkedIcon="@null" app:contentPaddingLeft="16dp" app:contentPaddingRight="16dp" style="@style/CardView.12">
+    <TextView android:textAppearance="?attr/textAppearanceTextL" android:layout_gravity="center" android:id="@+id/deferred_time_value" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:elevation="10dp"/>
+</com.google.android.material.card.MaterialCardView>

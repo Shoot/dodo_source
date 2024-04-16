@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SwitchCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textAppearance="?attr/textAppearanceHeadingH3" android:textColor="@color/assistant_wish_text" android:id="@+id/wish" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:thumbTint="@color/assistant_wish_switch_thumb" app:trackTint="@color/assistant_wish_switch_track"/>

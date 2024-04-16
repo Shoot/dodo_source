@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d adresse</item>
+        <item quantity="other">%1$d adressen</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d Tag</item>
+        <item quantity="other">%1$d Tage</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s Minuten</item>
+        <item quantity="other">~%1$s Minuten</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d Ware</item>
+        <item quantity="other">%1$d Waren</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d Produkt für %2$s</item>
+        <item quantity="other">%1$d Produkte für %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">Das Produkt für Dodocoins ist im Warenkorb</item>
+        <item quantity="other">Die Produkte für Dodocoins sind im Warenkorb</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Bonus für %1$s Dodocoin</item>
+        <item quantity="other">Bonus für %1$s Dodocoins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">Für %1$s Coin</item>
+        <item quantity="other">Für %1$s Coins</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">Für %1$s Coin und %2$s</item>
+        <item quantity="other">Für %1$s coins und %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Es fehlt %1$s Coin</item>
+        <item quantity="other">Es fehlen %1$s Coins</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d neue Benachrichtigung</item>
+        <item quantity="other">%d neue Benachrichtigungen</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d bestellung</item>
+        <item quantity="other">%1$d bestellungen</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero">Dodocoins sind die interne Währung von Dodo. Sie können im Bereich Profil ausgegeben werden. Wir berechnen Dodocoins für alle Bestellungen. Nach %1$s Tag sind die erhaltenen Dodocoins verfallen.</item>
+        <item quantity="one">Dodocoins sind die interne Währung von Dodo. Sie können im Bereich Profil ausgegeben werden. Wir berechnen Dodocoins für alle Bestellungen. Nach %1$s Tag sind die erhaltenen Dodocoins verfallen.</item>
+        <item quantity="other">Dodocoins sind die interne Währung von Dodo. Sie können im Bereich Profil ausgegeben werden. Wir berechnen Dodocoins für alle Bestellungen. Nach %1$s Tag sind die erhaltenen Dodocoins verfallen.</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="zero">Du hast %1$s Freunde eingeladen, lade noch %2$s weitere ein</item>
+        <item quantity="one">Du hast %1$s Freund eingeladen, lade noch %2$s weitere ein</item>
+        <item quantity="two">Du hast %1$s Freunde eingeladen, lade noch %2$s weitere ein</item>
+        <item quantity="few">Du hast %1$s Freunde eingeladen, lade noch %2$s weitere ein</item>
+        <item quantity="many">Du hast %1$s Freunde eingeladen, lade noch %2$s weitere ein</item>
+        <item quantity="other">Du hast %1$s Freunde eingeladen, lade noch %2$s weitere ein</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d Soße</item>
+        <item quantity="other">%1$d Soßen</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero">bis zu %1$d Tage</item>
+        <item quantity="one">bis zu %1$d Tag</item>
+        <item quantity="other">bis zu %1$d Tage</item>
+    </plurals>
+</resources>

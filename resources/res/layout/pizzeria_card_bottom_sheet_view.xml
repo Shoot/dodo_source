@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/dialog_bottom_white_background_20_rounded" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/ic_sheet_close_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:tint="@color/textIconTertiaryColor" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <FrameLayout android:id="@+id/pizzeria_card_close" android:padding="12dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:layout_gravity="end|center_vertical" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_cross" android:tint="@color/textIconSecondaryColor"/>
+    </FrameLayout>
+    <ru.dodopizza.app.presentation.selectpizzeria.PizzeriaCard android:id="@+id/pizzeria_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

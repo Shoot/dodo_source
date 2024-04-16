@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/backgroundPrimaryColor" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbar" android:background="@color/backgroundPrimaryColor" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:navigationIcon="@drawable/ic_arrow_start" app:navigationIconTint="@color/textIconPrimaryColor" app:title="@string/about_app"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/container" android:padding="16dp" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/toolbar">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/about_app_dodo_icon" android:layout_width="168dp" android:layout_height="176dp" android:scaleType="centerCrop" app:srcCompat="@drawable/ic_dodo_logo"/>
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH3" android:gravity="center" android:id="@+id/app_version_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:text="@string/app_version"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

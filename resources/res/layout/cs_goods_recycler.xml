@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/close_area" android:background="#50000000" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/loader_container" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/refresh_button" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:src="0x7f080301" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+    <RelativeLayout android:id="@+id/goods_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:gravity="center" android:id="@+id/hide_goods_container" android:background="@color/white" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <androidx.appcompat.widget.AppCompatImageView android:textSize="16sp" android:layout_gravity="center" android:id="@+id/hide_goods" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12dp" android:src="0x7f0800e3"/>
+        </FrameLayout>
+        <RelativeLayout android:id="@+id/bottom_line" android:background="@color/white" android:clickable="true" android:layout_width="match_parent" android:layout_height="200dp" android:layout_above="@+id/hide_goods_container"/>
+        <com.inappstory.sdk.stories.ui.views.goodswidget.GoodsWidget android:id="@+id/goods_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/hide_goods_container" android:elevation="2dp"/>
+    </RelativeLayout>
+</RelativeLayout>

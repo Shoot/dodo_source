@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="100dp">
+    <im.threads.ui.widget.CustomFontButton android:id="@+id/camera" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ecc_camera" android:layout_weight="1" style="@style/Base.Widget.AppCompat.Button.Borderless.BottomSheetButtonsStyle"/>
+    <im.threads.ui.widget.CustomFontButton android:id="@+id/gallery" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ecc_gallery" android:layout_weight="1" style="@style/Base.Widget.AppCompat.Button.Borderless.BottomSheetButtonsStyle"/>
+    <im.threads.ui.widget.CustomFontButton android:id="@+id/file" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/ecc_file" android:layout_weight="1" style="@style/Base.Widget.AppCompat.Button.Borderless.BottomSheetButtonsStyle"/>
+    <im.threads.ui.widget.CustomFontButton android:id="@+id/send" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/ecc_send" style="@style/Base.Widget.AppCompat.Button.Borderless.BottomSheetButtonsStyle"/>
+</merge>

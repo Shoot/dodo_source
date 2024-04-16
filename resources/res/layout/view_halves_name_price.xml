@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@+id/l_container" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.google.android.flexbox.FlexboxLayout android:id="@+id/l_tags_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" app:alignContent="center" app:alignItems="center" app:flexDirection="row" app:flexWrap="wrap"/>
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH4" android:id="@+id/l_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+        <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconSecondaryColor" android:id="@+id/l_price" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@+id/r_container" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="4dp">
+        <com.google.android.flexbox.FlexboxLayout android:id="@+id/r_tags_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:layout_marginEnd="-4dp" app:alignContent="center" app:alignItems="center" app:flexWrap="wrap" app:justifyContent="flex_end"/>
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH4" android:gravity="end" android:id="@+id/r_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+        <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconSecondaryColor" android:id="@+id/r_price" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/common_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.flexbox.FlexboxLayout android:id="@+id/common_tags_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" app:alignContent="center" app:alignItems="center" app:flexDirection="row" app:flexWrap="wrap" app:justifyContent="center"/>
+        <TextView android:textAppearance="?attr/textAppearanceHeadingH4" android:gravity="center" android:id="@+id/common_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <TextView android:textAppearance="?attr/textAppearanceTextM" android:textColor="@color/textIconSecondaryColor" android:id="@+id/original_recipe_view" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/original_recipe"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d მისამართი</item>
+        <item quantity="other">%1$d მისამათები</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d დღე</item>
+        <item quantity="other">%1$d დღე</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s წუთი</item>
+        <item quantity="other">~%1$s წუთი</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d ერთეული</item>
+        <item quantity="other">%1$d ერთეული</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d ერთეული %2$s-ად</item>
+        <item quantity="other">%1$d ერთეული %2$s-ად</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">კალათაში დამატებულია დოდოქოინის პროდუქტი</item>
+        <item quantity="other">კალათაში დამატებულია დოდოქოინის პროდუქტები</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">ბონუსი %1$s დოდოქოინისთვის</item>
+        <item quantity="other">ბონუსი %1$s დოდოქოინებისთვის</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">%1$s ქოინად</item>
+        <item quantity="other">%1$s ქოინად</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">%1$s ქოინად და %2$s</item>
+        <item quantity="other">%1$s ქოინად და %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">შესაძენად %1$s ქოინი გაკლდება</item>
+        <item quantity="other">შესაძენად %1$s ქოინი გაკლდება</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ახალი შეტყობინება</item>
+        <item quantity="other">%d ახალი შეტყობინება</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d შეკვეთა</item>
+        <item quantity="other">%1$d შეკვეთა</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="one">დოდოკოინები დოდოს შიდა ვალუტაა. მათი დახარჯვა შესაძლებელია პროფილის განყოფილებაში. გროვდება ყველა შეკვეთის შემდეგ. %1$s დღის შემდეგ მიღებული დოდოკოინები იწვება.</item>
+        <item quantity="other">დოდოკოინები დოდოს შიდა ვალუტაა. მათი დახარჯვა შესაძლებელია პროფილის განყოფილებაში. გროვდება ყველა შეკვეთის შემდეგ. %1$s დღის შემდეგ მიღებული დოდოკოინები იწვება.</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d სოუსი</item>
+        <item quantity="other">%1$d სოუსი</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="one">%1$d დღემდე</item>
+        <item quantity="other">%1$d დღემდე</item>
+    </plurals>
+</resources>

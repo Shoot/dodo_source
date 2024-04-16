@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="zero">%1$d عناوين</item>
+        <item quantity="one">%1$d عنوان</item>
+        <item quantity="two">%1$d عناوين</item>
+        <item quantity="few">%1$d عناوين</item>
+        <item quantity="many">%1$d عناوين</item>
+        <item quantity="other">%1$d عناوين</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_dodocoins_subtitle">
+        <item quantity="zero">في%1$s يوم</item>
+        <item quantity="one">في%1$s يوم</item>
+        <item quantity="two">في%1$s يوم</item>
+        <item quantity="few">في%1$s يوم</item>
+        <item quantity="many">في%1$s يوم</item>
+        <item quantity="other">في%1$s يوم</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_flash_dodocoins_description_v3">
+        <item quantity="zero">عادةً ما تكون صالحة لمدة لا تزيد عن %1$s يوم. يمكنك العثور على المدة الدقيقة في شروط العرض</item>
+        <item quantity="one">عادةً ما تكون صالحة لمدة لا تزيد عن %1$s يوم. يمكنك العثور على المدة الدقيقة في شروط العرض</item>
+        <item quantity="two">عادةً ما تكون صالحة لمدة لا تزيد عن %1$s يوم. يمكنك العثور على المدة الدقيقة في شروط العرض</item>
+        <item quantity="few">عادةً ما تكون صالحة لمدة لا تزيد عن %1$s يوم. يمكنك العثور على المدة الدقيقة في شروط العرض</item>
+        <item quantity="many">عادةً ما تكون صالحة لمدة لا تزيد عن %1$s يوم. يمكنك العثور على المدة الدقيقة في شروط العرض</item>
+        <item quantity="other">عادةً ما تكون صالحة لمدة لا تزيد عن %1$s يوم. يمكنك العثور على المدة الدقيقة في شروط العرض</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="zero">%1$d أيام</item>
+        <item quantity="one">%1$d يوم</item>
+        <item quantity="two">%1$d أيام</item>
+        <item quantity="few">%1$d أيام</item>
+        <item quantity="many">%1$d أيام</item>
+        <item quantity="other">%1$d أيام</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="zero">(%1$s)~ :الدقائق</item>
+        <item quantity="one">(%1$s)~ :الدقيقة</item>
+        <item quantity="two">(%1$s)~ :الدقائق</item>
+        <item quantity="few">(%1$s)~ :الدقائق</item>
+        <item quantity="many">(%1$s)~ :الدقائق</item>
+        <item quantity="other">(%1$s)~ :الدقائق</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="zero">عناصر (%1$d)</item>
+        <item quantity="one">عنصر (%1$d)</item>
+        <item quantity="two">عناصر (%1$d)</item>
+        <item quantity="few">عناصر (%1$d)</item>
+        <item quantity="many">عناصر (%1$d)</item>
+        <item quantity="other">عناصر (%1$d)</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="zero">%2$s منتجات بسعر (%1$d)</item>
+        <item quantity="one">%2$s منتج بسعر (%1$d)</item>
+        <item quantity="two">%2$s منتجات بسعر (%1$d)</item>
+        <item quantity="few">%2$s منتجات بسعر (%1$d)</item>
+        <item quantity="many">%2$s منتجات بسعر (%1$d)</item>
+        <item quantity="other">%2$s منتجات بسعر (%1$d)</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="zero">منتجات مقابل دودوكوين في سلة مشترياتك</item>
+        <item quantity="one">منتج مقابل دودوكوين في سلة مشترياتك</item>
+        <item quantity="two">منتجات مقابل دودوكوين في سلة مشترياتك</item>
+        <item quantity="few">منتجات مقابل دودوكوين في سلة مشترياتك</item>
+        <item quantity="many">منتجات مقابل دودوكوين في سلة مشترياتك</item>
+        <item quantity="other">منتجات مقابل دودوكوين في سلة مشترياتك</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="zero">مكافأة مقابل (%1$s) دودوكوين</item>
+        <item quantity="one">مكافأة مقابل (%1$s) دودوكوين</item>
+        <item quantity="two">مكافأة مقابل (%1$s) دودوكوين</item>
+        <item quantity="few">مكافأة مقابل (%1$s) دودوكوين</item>
+        <item quantity="many">مكافأة مقابل (%1$s) دودوكوين</item>
+        <item quantity="other">مكافأة مقابل (%1$s) دودوكوين</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="zero">مقابل (%1$s) عملات</item>
+        <item quantity="one">مقابل (%1$s) عملة</item>
+        <item quantity="two">مقابل (%1$s) عملات</item>
+        <item quantity="few">مقابل (%1$s) عملات</item>
+        <item quantity="many">مقابل (%1$s) عملات</item>
+        <item quantity="other">مقابل (%1$s) عملات</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="zero">(%2$s) مقابل و (%1$s) عملات</item>
+        <item quantity="one">(%2$s) مقابل و (%1$s) عملة</item>
+        <item quantity="two">(%2$s) مقابل و (%1$s) عملات</item>
+        <item quantity="few">(%2$s) مقابل و (%1$s) عملات</item>
+        <item quantity="many">(%2$s) مقابل و (%1$s) عملات</item>
+        <item quantity="other">(%2$s) مقابل و (%1$s) عملات</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="zero">%1$s :لا يكفي</item>
+        <item quantity="one">%1$s :لا يكفي</item>
+        <item quantity="two">%1$s :لا يكفي</item>
+        <item quantity="few">%1$s :لا يكفي</item>
+        <item quantity="many">%1$s :لا يكفي</item>
+        <item quantity="other">%1$s :لا يكفي</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="zero">%1$d طلبات</item>
+        <item quantity="one">%1$d طلب</item>
+        <item quantity="two">%1$d طلبات</item>
+        <item quantity="few">%1$d طلبات</item>
+        <item quantity="many">%1$d طلبات</item>
+        <item quantity="other">%1$d طلبات</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="zero">الدودوكوين هي العملة الداخلية لدينا في دودو. يمكنك إنفاقها عبر قسم الملف الشخصي. نحن نمنح دودوكوين مقابل جميع الطلبات. ستنتهي صلاحية الدودوكوين المستلمة بعد %1$s يوم إذا لم تستخدمها.</item>
+        <item quantity="one">الدودوكوين هي العملة الداخلية لدينا في دودو. يمكنك إنفاقها عبر قسم الملف الشخصي. نحن نمنح دودوكوين مقابل جميع الطلبات. ستنتهي صلاحية الدودوكوين المستلمة بعد يوم واحد %1$s إذا لم تستخدمها.</item>
+        <item quantity="two">الدودوكوين هي العملة الداخلية لدينا في دودو. يمكنك إنفاقها عبر قسم الملف الشخصي. نحن نمنح دودوكوين مقابل جميع الطلبات. ستنتهي صلاحية الدودوكوين المستلمة بعد يومين %1$s إذا لم تستخدمها.</item>
+        <item quantity="few">الدودوكوين هي العملة الداخلية لدينا في دودو. يمكنك إنفاقها عبر قسم الملف الشخصي. نحن نمنح دودوكوين مقابل جميع الطلبات. ستنتهي صلاحية الدودوكوين المستلمة بعد %1$s أيام إذا لم تستخدمها.</item>
+        <item quantity="many">الدودوكوين هي العملة الداخلية لدينا في دودو. يمكنك إنفاقها عبر قسم الملف الشخصي. نحن نمنح دودوكوين مقابل جميع الطلبات. ستنتهي صلاحية الدودوكوين المستلمة بعد %1$s يومًا إذا لم تستخدمها.</item>
+        <item quantity="other">الدودوكوين هي العملة الداخلية لدينا في دودو. يمكنك إنفاقها عبر قسم الملف الشخصي. نحن نمنح دودوكوين مقابل جميع الطلبات. ستنتهي صلاحية الدودوكوين المستلمة بعد %1$s يومًا إذا لم تستخدمها.</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="zero">لقد دعوت %1$s صديق، وبقي %2$s آخرون</item>
+        <item quantity="one">لقد دعوت %1$s صديق، وبقي %2$s آخرون</item>
+        <item quantity="two">لقد دعوت %1$s صديق، وبقي %2$s آخرون</item>
+        <item quantity="few">لقد دعوت %1$s صديق، وبقي %2$s آخرون</item>
+        <item quantity="many">لقد دعوت %1$s صديق، وبقي %2$s آخرون</item>
+        <item quantity="other">لقد دعوت %1$s صديق، وبقي %2$s آخرون</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_without_limit">
+        <item quantity="zero">لقد دعوت%1$s صديق</item>
+        <item quantity="one">لقد دعوت %1$s صديق</item>
+        <item quantity="two">لقد دعوت%1$s صديق</item>
+        <item quantity="few">لقد دعوت%1$s صديق</item>
+        <item quantity="many">لقد دعوت%1$s صديق</item>
+        <item quantity="other">لقد دعوت%1$s صديق</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="zero">(%1$d) :الصلصات</item>
+        <item quantity="one">(%1$d) :الصلصة</item>
+        <item quantity="two">(%1$d) :الصلصات</item>
+        <item quantity="few">(%1$d) :الصلصات</item>
+        <item quantity="many">(%1$d) :الصلصات</item>
+        <item quantity="other">(%1$d) :الصلصات</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="zero">حتى %1$d يوم</item>
+        <item quantity="one">حتى %1$d يوم</item>
+        <item quantity="two">حتى %1$d يوم</item>
+        <item quantity="few">حتى %1$d أيام</item>
+        <item quantity="many">حتى %1$d يومًا</item>
+        <item quantity="other">حتى %1$d يوم</item>
+    </plurals>
+</resources>

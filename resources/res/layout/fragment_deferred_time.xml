@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/dialog_bottom_white_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="@color/backgroundSecondaryColor">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/deferred_time_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:contentInsetStartWithNavigation="56dp" app:navigationIcon="@drawable/ic_arrow_start" app:navigationIconTint="@color/textIconPrimaryColor" app:titleTextAppearance="?attr/textAppearanceHeadingH2"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewSwitcher android:id="@+id/deferred_time_view_switcher" android:layout_width="match_parent" android:layout_height="match_parent" android:inAnimation="@anim/alpha" android:outAnimation="@anim/alpha_out">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="?attr/textAppearanceTextM" android:gravity="center_vertical" android:id="@+id/deferred_time_workload_warning" android:background="@drawable/shape_with_round_corners_8dp" android:padding="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:drawablePadding="8dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:backgroundTint="@color/surfaceTertiaryColor" app:drawableStartCompat="@drawable/ic_alert" app:drawableTint="@color/textIconPrimaryColor"/>
+                <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@+id/deferred_time_list" android:fadingEdgeLength="36dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:requiresFadingEdge="vertical"/>
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </ViewSwitcher>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/snackbar_anchor" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d ünvan</item>
+        <item quantity="few">%1$d ünvan</item>
+        <item quantity="many">%1$d ünvan</item>
+        <item quantity="other">%1$d ünvan</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d gün</item>
+        <item quantity="few">%1$d gün</item>
+        <item quantity="many">%1$d gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s dəqiqə</item>
+        <item quantity="few">~%1$s dəqiqə</item>
+        <item quantity="many">~%1$s dəqiqə</item>
+        <item quantity="other">~%1$s dəqiqə</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d məhsul</item>
+        <item quantity="few">%1$d məhsul</item>
+        <item quantity="many">%1$d məhsul</item>
+        <item quantity="other">%1$d məhsul</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%2$s qiymətinə %1$d məhsul</item>
+        <item quantity="few">%2$s qiymətinə %1$d məhsul</item>
+        <item quantity="many">%2$s qiymətinə %1$d məhsul</item>
+        <item quantity="other">%2$s qiymətinə %1$d məhsul</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">dodokoinli məhsul səbətdə</item>
+        <item quantity="few">dodokoinli məhsul səbətdə</item>
+        <item quantity="many">dodokoinli məhsul səbətdə</item>
+        <item quantity="other">dodokoinli məhsul səbətdə</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">%1$s dodokoin üçün bonus</item>
+        <item quantity="few">%1$s dodokoin üçün bonus</item>
+        <item quantity="many">%1$s dodokoin üçün bonus</item>
+        <item quantity="other">%1$s dodokoin üçün bonus</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">%1$s dodokoinə alın</item>
+        <item quantity="few">%1$s dodokoinə alın</item>
+        <item quantity="many">%1$s dodokoinə alın</item>
+        <item quantity="other">%1$s dodokoinə alın</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">%1$s dodokoin ve %2$s üçün</item>
+        <item quantity="few">%1$s dodokoin ve %2$s üçün</item>
+        <item quantity="many">%1$s dodokoin ve %2$s üçün</item>
+        <item quantity="other">%1$s dodokoin ve %2$s üçün</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Sifarişi tamamlamaq üçün %1$s dodokoin çatmır</item>
+        <item quantity="few">Sifarişi tamamlamaq üçün %1$s dodokoin çatmır</item>
+        <item quantity="many">Sifarişi tamamlamaq üçün %1$s dodokoin çatmır</item>
+        <item quantity="other">Sifarişi tamamlamaq üçün %1$s dodokoin çatmır</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d yeni bildiriş</item>
+        <item quantity="other">%d yeni bildiriş</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d sifariş</item>
+        <item quantity="few">%1$d sifariş</item>
+        <item quantity="many">%1$d sifariş</item>
+        <item quantity="other">%1$d sifariş</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="one">Dodokoin  — Dodonun daxili valyutasıdır. Dodokoinləri Profil  bölməsində xərcləyin. Biz dodokoinləri etdiyiniz sifarişlərə görə hesablayırıq. Unutmayın ki, %1$s gündən sonra dodokoinlər qüvvədən düşür.</item>
+        <item quantity="few">Dodokoin  — Dodonun daxili valyutasıdır. Dodokoinləri Profil  bölməsində xərcləyin. Biz dodokoinləri etdiyiniz sifarişlərə görə hesablayırıq. Unutmayın ki, %1$s gündən sonra dodokoinlər qüvvədən düşür.</item>
+        <item quantity="many">Dodokoin  — Dodonun daxili valyutasıdır. Dodokoinləri Profil  bölməsində xərcləyin. Biz dodokoinləri etdiyiniz sifarişlərə görə hesablayırıq. Unutmayın ki, %1$s gündən sonra dodokoinlər qüvvədən düşür.</item>
+        <item quantity="other">Dodokoin  — Dodonun daxili valyutasıdır. Dodokoinləri Profil  bölməsində xərcləyin. Biz dodokoinləri etdiyiniz sifarişlərə görə hesablayırıq. Unutmayın ki, %1$s gündən sonra dodokoinlər qüvvədən düşür.</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d sous</item>
+        <item quantity="few">%1$d sous</item>
+        <item quantity="many">%1$d sous</item>
+        <item quantity="other">%1$d sous</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="one">%1$d günədək</item>
+        <item quantity="few">%1$d günədək</item>
+        <item quantity="many">%1$d günədək</item>
+        <item quantity="other">%1$d günədək</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dodopizza.android.textinputlayout.DodoEditTextInputLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/address_map_text_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:boxBackgroundColor="@color/backgroundPrimaryColor" app:boxStrokeWidth="0dp" app:boxStrokeWidthFocused="0dp" style="@style/TextInputLayoutFilledBox">
+    <com.dodopizza.android.textinputlayout.DodoEditText android:textAppearance="?attr/textAppearanceTextL" android:textSize="17sp" android:id="@+id/address_map_edit_text" android:background="@drawable/rounded_corners_12dp_borders_grey_1dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="text"/>
+</com.dodopizza.android.textinputlayout.DodoEditTextInputLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="address_counts">
+        <item quantity="one">%1$d adresa</item>
+        <item quantity="few">%1$d adresa</item>
+        <item quantity="other">%1$d adresa</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_dodocoins_subtitle">
+        <item quantity="one">za %1$s dan</item>
+        <item quantity="few">za %1$s dana</item>
+        <item quantity="other">za %1$s dana</item>
+    </plurals>
+    <plurals name="coins_expiration_faq_flash_dodocoins_description_v3">
+        <item quantity="one">Obično traju samo %1$s dan. Točan rok trajanja možete pronaći u detaljima ponude.</item>
+        <item quantity="few">Obično traju samo %1$s dana. Točan rok trajanja možete pronaći u detaljima ponude.</item>
+        <item quantity="other">Obično traju samo %1$s dana. Točan rok trajanja možete pronaći u detaljima ponude.</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="one">%1$d dan</item>
+        <item quantity="few">%1$d dana</item>
+        <item quantity="other">%1$d dana</item>
+    </plurals>
+    <plurals name="expected_minutes_to_receive_for_asap_plural">
+        <item quantity="one">~%1$s minuta</item>
+        <item quantity="few">~%1$s minuta</item>
+        <item quantity="other">~%1$s minuta</item>
+    </plurals>
+    <plurals name="good_plural">
+        <item quantity="one">%1$d artikl</item>
+        <item quantity="few">%1$d artikla</item>
+        <item quantity="other">%1$d artikla</item>
+    </plurals>
+    <plurals name="good_with_price_plural">
+        <item quantity="one">%1$d artikl po cijeni od %2$s</item>
+        <item quantity="few">%1$d artikla po cijeni od %2$s</item>
+        <item quantity="other">%1$d artikla po cijeni od %2$s</item>
+    </plurals>
+    <plurals name="loyalty_already_in_cart">
+        <item quantity="one">artikl u zamjenu za Dodocoine u košarici</item>
+        <item quantity="few">artikla u zamjenu za Dodocoine u košarici</item>
+        <item quantity="other">artikla u zamjenu za Dodocoine u košarici</item>
+    </plurals>
+    <plurals name="loyalty_cart_product_discount_title">
+        <item quantity="one">Bonus za %1$s Dodocoin</item>
+        <item quantity="few">Bonus za %1$s Dodocoina</item>
+        <item quantity="other">Bonus za %1$s Dodocoina</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label">
+        <item quantity="one">Za %1$s Dodocoin</item>
+        <item quantity="few">Za %1$s Dodocoina</item>
+        <item quantity="other">Za %1$s Dodocoina</item>
+    </plurals>
+    <plurals name="loyalty_products_cost_label_with_legal_price">
+        <item quantity="one">Za %1$s Dodocoin i %2$s</item>
+        <item quantity="few">Za %1$s Dodocoina i %2$s</item>
+        <item quantity="other">Za %1$s Dodocoina i %2$s</item>
+    </plurals>
+    <plurals name="loyalty_products_not_enough_subtitle">
+        <item quantity="one">Nedostaje %1$s Dodocoin za kupovinu</item>
+        <item quantity="few">Nedostaje %1$s Dodocoina za kupovinu</item>
+        <item quantity="other">Nedostaje %1$s Dodocoina za kupovinu</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">%d nove obavijesti</item>
+        <item quantity="other">%d novih obavijesti</item>
+    </plurals>
+    <plurals name="order_counts">
+        <item quantity="one">%1$d narudžba</item>
+        <item quantity="few">%1$d narudžbi</item>
+        <item quantity="other">%1$d narudžbi</item>
+    </plurals>
+    <plurals name="profile_settings_account_deletion_status_in_days_title">
+        <item quantity="one">Korisnički račun biti će obrisan za %1$s dan</item>
+        <item quantity="few">Korisnički račun biti će obrisan za %1$s dana</item>
+        <item quantity="other">Korisnički račun biti će obrisan za %1$s dana</item>
+    </plurals>
+    <plurals name="referral_code_success_description">
+        <item quantity="one">Dodocoini su interna valuta Dodo Pizze. Mogu se potrošiti unutar Vašeg profila. Za sve narudžbe naplaćujemo Dodocoine. Nakon %1$s dana, Dodocoini nestaju.</item>
+        <item quantity="few">Dodocoini su interna valuta Dodo Pizze. Mogu se potrošiti unutar Vašeg profila. Za sve narudžbe naplaćujemo Dodocoine. Nakon %1$s dana, Dodocoini nestaju.</item>
+        <item quantity="other">Dodocoini su interna valuta Dodo Pizze. Mogu se potrošiti unutar Vašeg profila. Za sve narudžbe naplaćujemo Dodocoine. Nakon %1$s dana, Dodocoini nestaju.</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_with_limit">
+        <item quantity="one">Pozvali ste %1$s prijatelja, morate još samo %2$s</item>
+        <item quantity="few">Pozvali ste %1$s prijatelja, morate još samo %2$s</item>
+        <item quantity="other">Pozvali ste %1$s prijatelja, morate još samo %2$s</item>
+    </plurals>
+    <plurals name="referral_system_invited_title_without_limit">
+        <item quantity="one">Pozvali ste %1$s prijatelja</item>
+        <item quantity="few">Pozvali ste %1$s prijatelja</item>
+        <item quantity="other">Pozvali ste %1$s prijatelja</item>
+    </plurals>
+    <plurals name="sauce_plural">
+        <item quantity="one">%1$d umak</item>
+        <item quantity="few">%1$d umaka</item>
+        <item quantity="other">%1$d umaka</item>
+    </plurals>
+    <plurals name="till_days_plural">
+        <item quantity="one">do %1$d dana</item>
+        <item quantity="few">do %1$d dana</item>
+        <item quantity="other">do %1$d dana</item>
+    </plurals>
+</resources>

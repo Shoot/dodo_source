@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="32dp" android:width="32dp" android:viewportWidth="32" android:viewportHeight="32">
+    <path android:fillColor="@color/textIconDodoColor" android:pathData="M16,30C23.732,30 30,23.732 30,16C30,8.268 23.732,2 16,2C8.268,2 2,8.268 2,16C2,23.732 8.268,30 16,30ZM16,27C22.0751,27 27,22.0751 27,16C27,15.7914 26.9942,15.5842 26.9827,15.3785C24.9836,15.5309 22.5628,15.4748 20.1915,15.0394C16.8056,14.4177 13.2621,12.9705 11.3348,9.9779C10.0886,10.914 8.5195,12.1693 7.1555,13.2798C6.3301,13.9518 5.5859,14.5658 5.0434,15.0157C5.0147,15.34 5,15.6683 5,16C5,22.0751 9.9249,27 16,27Z" android:fillType="evenOdd"/>
+    <path android:fillColor="@color/textIconPrimaryColor" android:pathData="M11,21C12.1046,21 13,20.1046 13,19C13,17.8954 12.1046,17 11,17C9.8954,17 9,17.8954 9,19C9,20.1046 9.8954,21 11,21Z"/>
+    <path android:fillColor="@color/textIconPrimaryColor" android:pathData="M22,21C23.1046,21 24,20.1046 24,19C24,17.8954 23.1046,17 22,17C20.8954,17 20,17.8954 20,19C20,20.1046 20.8954,21 22,21Z"/>
+</vector>
